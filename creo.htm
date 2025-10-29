@@ -1,0 +1,1103 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="zh-tw">
+<meta http-equiv="Content-Type" content="text/html; charset=big5">
+<title>新增網頁2</title>
+<script language="JavaScript">
+<!--
+function FP_swapImg() {//v1.0
+ var doc=document,args=arguments,elm,n; doc.$imgSwaps=new Array(); for(n=2; n<args.length;
+ n+=2) { elm=FP_getObjectByID(args[n]); if(elm) { doc.$imgSwaps[doc.$imgSwaps.length]=elm;
+ elm.$src=elm.src; elm.src=args[n+1]; } }
+}
+
+function FP_preloadImgs() {//v1.0
+ var d=document,a=arguments; if(!d.FP_imgs) d.FP_imgs=new Array();
+ for(var i=0; i<a.length; i++) { d.FP_imgs[i]=new Image; d.FP_imgs[i].src=a[i]; }
+}
+
+function FP_getObjectByID(id,o) {//v1.0
+ var c,el,els,f,m,n; if(!o)o=document; if(o.getElementById) el=o.getElementById(id);
+ else if(o.layers) c=o.layers; else if(o.all) el=o.all[id]; if(el) return el;
+ if(o.id==id || o.name==id) return o; if(o.childNodes) c=o.childNodes; if(c)
+ for(n=0; n<c.length; n++) { el=FP_getObjectByID(id,c[n]); if(el) return el; }
+ f=o.forms; if(f) for(n=0; n<f.length; n++) { els=f[n].elements;
+ for(m=0; m<els.length; m++){ el=FP_getObjectByID(id,els[n]); if(el) return el; } }
+ return null;
+}
+// -->
+</script>
+</head>
+
+<body onload="FP_preloadImgs(/*url*/'button13.jpg', /*url*/'button14.jpg', /*url*/'button16.jpg', /*url*/'button17.jpg', /*url*/'button1C.jpg', /*url*/'button1D.jpg', /*url*/'button20.jpg', /*url*/'button21.jpg', /*url*/'button2.jpg', /*url*/'button3.jpg', /*url*/'button11.jpg', /*url*/'button18.jpg', /*url*/'button19.jpg', /*url*/'button22.jpg', /*url*/'buttonB1.jpg', /*url*/'buttonC1.jpg', /*url*/'button35.jpg', /*url*/'button36.jpg', /*url*/'button37.jpg', /*url*/'button38.jpg')">
+
+<p align="center"><a href="index.htm">
+<img border="0" src="logo.jpg" width="970" height="182"></a></p>
+<p align="center"><a href="http://www.ocu.edu.tw/bin/home.php">
+<img border="0" id="img1" src="button12.jpg" height="60" width="300" alt="僑 光 科 技 大 學" onmouseover="FP_swapImg(1,0,/*id*/'img1',/*url*/'button13.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img1',/*url*/'button12.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img1',/*url*/'button14.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img1',/*url*/'button13.jpg')" fp-style="fp-btn: Embossed Capsule 1; fp-font: 微軟正黑體; fp-font-style: Bold; fp-font-size: 16" fp-title="僑 光 科 技 大 學"></a>&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;
+<a href="https://caid.ocu.edu.tw/index.php?Lang=zh-tw">
+<img border="0" id="img8" src="button45.jpg" height="60" width="300" alt="機械與電腦輔助工程系" fp-style="fp-btn: Embossed Capsule 1; fp-font: 微軟正黑體; fp-font-style: Bold; fp-font-size: 14" fp-title="機械與電腦輔助工程系" onmouseover="FP_swapImg(1,0,/*id*/'img8',/*url*/'button43.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img8',/*url*/'button45.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img8',/*url*/'button44.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img8',/*url*/'button43.jpg')"></a></p>
+<table border="1" width="100%" height="589">
+	<tr>
+		<td width="201" align="center" valign="top"><a href="index.htm">
+		<img border="0" id="img4" src="button1F.jpg" height="35" width="175" alt="首        頁" fp-style="fp-btn: Embossed Capsule 1; fp-font: 微軟正黑體; fp-font-style: Bold; fp-font-size: 14" fp-title="首        頁" onmouseover="FP_swapImg(1,0,/*id*/'img4',/*url*/'button20.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img4',/*url*/'button1F.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img4',/*url*/'button21.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img4',/*url*/'button20.jpg')"></a><p>
+		<a href="teacher.htm">
+		<img border="0" id="img3" src="button1B.jpg" height="35" width="175" alt="教師簡歷" onmouseover="FP_swapImg(1,0,/*id*/'img3',/*url*/'button1C.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img3',/*url*/'button1B.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img3',/*url*/'button1D.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img3',/*url*/'button1C.jpg')" fp-style="fp-btn: Embossed Capsule 1; fp-font: 微軟正黑體; fp-font-style: Bold; fp-font-size: 14" fp-title="教師簡歷"></a><p>
+		<a href="solidworks.htm">
+		<img border="0" id="img5" src="button1.jpg" height="35" width="175" alt="SolidWorks教學" fp-style="fp-btn: Embossed Capsule 1; fp-font: 微軟正黑體; fp-font-style: Bold; fp-font-size: 13" fp-title="SolidWorks教學" onmouseover="FP_swapImg(1,0,/*id*/'img5',/*url*/'button2.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img5',/*url*/'button1.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img5',/*url*/'button3.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img5',/*url*/'button2.jpg')"></a><p>
+		<a href="creo.htm">
+		<img border="0" id="img6" src="button10.jpg" height="35" width="175" alt="creo(Pro/E)教學" fp-style="fp-btn: Embossed Capsule 1; fp-font: 微軟正黑體; fp-font-style: Bold; fp-font-size: 13" fp-title="creo(Pro/E)教學" onmouseover="FP_swapImg(1,0,/*id*/'img6',/*url*/'button11.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img6',/*url*/'button10.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img6',/*url*/'button18.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img6',/*url*/'button11.jpg')"></a><p>
+		<a href="autocad.htm">
+		<img border="0" id="img7" src="button23.jpg" height="35" width="175" alt="AutoCAD 教學" fp-style="fp-btn: Embossed Capsule 1; fp-font: 微軟正黑體; fp-font-style: Bold; fp-font-size: 14" fp-title="AutoCAD 教學" onmouseover="FP_swapImg(1,0,/*id*/'img7',/*url*/'button19.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img7',/*url*/'button23.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img7',/*url*/'button22.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img7',/*url*/'button19.jpg')"></a></td>
+		<td valign="top">　<p align="center">&nbsp;&nbsp;&nbsp;
+		<a href="#PTC-creo 教學">
+		<img border="0" id="img14" src="buttonA1.jpg" height="60" width="300" alt="PTC-creo 教學" fp-style="fp-btn: Glow Rectangle 3; fp-font: 微軟正黑體; fp-font-style: Bold; fp-font-size: 12; fp-font-color-normal: #0000FF; fp-font-color-hover: #0000FF; fp-font-color-press: #0000FF" fp-title="PTC-creo 教學" onmouseover="FP_swapImg(1,0,/*id*/'img14',/*url*/'buttonB1.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img14',/*url*/'buttonA1.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img14',/*url*/'buttonC1.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img14',/*url*/'buttonB1.jpg')"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="#Pro/E-Wildfire 教學">
+		<img border="0" id="img15" src="button39.jpg" height="60" width="300" alt="Pro/E-Wildfire 教學" onmouseover="FP_swapImg(1,0,/*id*/'img15',/*url*/'button35.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img15',/*url*/'button39.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img15',/*url*/'button36.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img15',/*url*/'button35.jpg')" fp-style="fp-btn: Glow Rectangle 3; fp-font: 微軟正黑體; fp-font-style: Bold; fp-font-size: 12; fp-font-color-normal: #0000FF; fp-font-color-hover: #0000FF; fp-font-color-press: #0000FF" fp-title="Pro/E-Wildfire 教學"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="#Pro/E-Wildfire_TQC專業級">
+		<img border="0" id="img16" src="button40.jpg" height="60" width="300" alt="Pro/E-Wildfire TQC專業級" onmouseover="FP_swapImg(1,0,/*id*/'img16',/*url*/'button37.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img16',/*url*/'button40.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img16',/*url*/'button38.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img16',/*url*/'button37.jpg')" fp-style="fp-btn: Glow Rectangle 3; fp-font: 微軟正黑體; fp-font-style: Bold; fp-font-size: 12; fp-font-color-normal: #0000FF; fp-font-color-hover: #0000FF; fp-font-color-press: #0000FF" fp-title="Pro/E-Wildfire TQC專業級"></a></p>
+		<p align="center">&nbsp;&nbsp;&nbsp;</p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;
+		<font color="#FFFFFF"><b><span style="background-color: #FF00FF">
+		<a name="PTC-creo 教學">PTC-creo 教學</a></span></b></font></font></p>
+		<p align="left"><font size="5" face="微軟正黑體">&nbsp;&nbsp;&nbsp;&nbsp; 
+		Creo基礎設計-1</font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=lpp_TtlGgFU&index=99&t=313s&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B">
+		Creo的介面介紹及基本操作-1</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=luonSoXjyOg&t=1615s&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B&index=100">
+		Creo的介面介紹及基本操作-2</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=ul4BHuAenh0&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B&index=101">
+		Creo的介面介紹及基本操作-3(重新定向與自定視角)</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=hsAzqwahkAE&index=102&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B">
+		Creo的介面介紹及基本操作-4(滑鼠的基本選取)</a></font></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=GtOInrb-uQA&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B&index=54">
+		草繪設計與基本操作-</a></font></span><font size="5" face="微軟正黑體"><a href="https://www.youtube.com/watch?v=GtOInrb-uQA&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B&index=54">進入草繪-點-直線</a></font></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=2ay5fr8DRs4&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B&index=55">
+		草繪設計與基本操作-矩形-弧-圓</a></font></span></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=sUQf72pp9nE&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B&index=53">
+		草繪設計與基本操作-草繪座標-圓角-倒角</a></font></span></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=Xsz3pcNMk4U&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B&index=57">
+		草繪設計與基本操作-橢圓-雲規曲線</a></font></span></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=VJoR0prrTNo&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B&index=59">
+		草繪設計與基本操作-草繪文字</a></font></span></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=UaMtXvpA1IM&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B&index=56">
+		草繪設計與基本操作-調色盤</a></font></span></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=tO7YFyHzY_w&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B&index=58">
+		草繪設計與基本操作-線性尺寸</a></font></span></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=n83VnaQ3rP0&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B&index=61">
+		草繪設計與基本操作-直徑-半徑-角度-弧長標註</a></font></span></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=ylkM_HsSG8s&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B&index=60">
+		草繪設計與基本操作-尺寸修改</a></font></span></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=8EwoM0YWVL4&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B&index=62">
+		草繪設計與基本操作-限制條件</a></font></span></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=64yy0s1NUiM&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B&index=64">
+		草繪設計與基本操作-解決限制衝突</a></font></span></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=-SZwRTJG_jg&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B&index=63">
+		草繪設計與基本操作-刪除段-轉角-分割</a></font></span></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=Ji4Ov4erJIs&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B&index=65">
+		草繪設計與基本操作-複製-鏡射-建構</a></font></span></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=x5p8PyR0wCc&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B&index=66">
+		草繪設計與基本操作-草繪綜合練習</a></font></span></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=-BErpfdrCTU&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B&index=67">
+		草繪設計與基本操作-SKT01-1</a></font></span></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=bm55wJEW1oQ&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B&index=68">
+		草繪設計與基本操作-SKT01-2</a></font></span></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=qYIlp3vOL7Y&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B&index=76">
+		草繪設計與基本操作-SKT01-3</a></font></span></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=ePRVGwaLnxk&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B&index=75">
+		草繪設計與基本操作-SKT01-4-5</a></font></span></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=mP7XMABFoFM&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B&index=69">
+		草繪設計與基本操作-SKT01-6</a></font></span></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=eagMCxipqGk&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B&index=70">
+		草繪設計與基本操作-SKT02-1-2-3</a></font></span></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=-Y1ZC7HXM_c&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B&index=79">
+		草繪設計與基本操作-SKT02-4</a></font></span></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=GBGNWGnQZgA&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B&index=72">
+		草繪設計與基本操作-SKT02-5</a></font></span></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=W09moNufJUw&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B&index=71">
+		草繪設計與基本操作-SKT02-6</a></font></span></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=unFsRk7M0TQ&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B&index=82">
+		草繪設計與基本操作-SKT03-1-3</a></font></span></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=AXBYB4B3a-A&index=74&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B">
+		草繪設計與基本操作-SKT03-2</a></font></span></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=X4fh5KgAqlY&index=73&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B">
+		草繪設計與基本操作-SKT03-4</a></font></span></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=CGxUeQPd_2U&index=80&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B">
+		草繪設計與基本操作-SKT03-5</a></font></span></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=5lt--AO6Y5M&index=77&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B">
+		草繪設計與基本操作-SKT03-6</a></font></span></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=qsPFWToVa7c&index=78&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B">
+		草繪設計與基本操作-SKT04-1</a></font></span></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=0Ck0inkIhAU&index=84&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B">
+		草繪設計與基本操作-SKT04-2</a></font></span></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=g2iWa9MUtpM&index=81&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B">
+		草繪設計與基本操作-SKT04-3</a></font></span></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=Ane93tXOzk0&index=83&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B">
+		草繪設計與基本操作-SKT06-2</a></font></span></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=r3Q-kITmb9E&index=85&t=1s&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B">
+		草繪設計與基本操作-SKT06-3</a></font></span></p>
+		<p align="left"><font size="5" face="微軟正黑體">&nbsp;&nbsp;&nbsp;&nbsp; Creo基礎設計-2</font></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=F9UD7Umf8Dg&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B&index=49">
+		基礎特徵建立-引伸特徵說明</a></font></span></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=j1yrYiCn7rI&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B&index=50">
+		基礎特徵建立-引伸實例一</a></font></span></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=QpD8PY7BwPg&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B&index=51">
+		基礎特徵建立-引伸實例二</a></font></span></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=4KgPlT77sHw&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B&index=52">
+		基礎特徵建立-旋轉特徵說明-1</a></font></span></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=fM3nY6BLuBw&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B&index=33">
+		基礎特徵建立-旋轉特徵說明-2</a></font></span></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=sWWPnn8qJ-E&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B&index=35">
+		基礎特徵建立-旋轉特徵說明-3</a></font></span></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=FkcBc6RRseU&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B&index=34">
+		基礎特徵建立-內部草繪與外部共用草繪</a></font></span></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=_Wnome2oN_w&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B&index=36">
+		基礎特徵建立-旋轉特徵-24-1</a></font></span></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=12-gbFViI28&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B&index=37">
+		基礎特徵建立-旋轉特徵-24-2</a></font></span></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=Yavhqvnl_o0&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B&index=38">
+		基礎特徵建立-旋轉特徵-25-1</a></font></span></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=GCn5yI9XcnA&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B&index=39">
+		基礎特徵建立-旋轉特徵-25-2</a></font></span></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=GbfzqOsFUfc&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B&index=40">
+		基礎特徵建立-旋轉特徵-26-2</a></font></span></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=DkTKnCbaaeM&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B&index=41">
+		基礎特徵建立-旋轉特徵-27-1</a></font></span></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=6x8e_1qh1xU&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B&index=42">
+		基礎特徵建立-旋轉特徵-27-2</a></font></span></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=AEi2sqkjwn8&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B&index=23">
+		基準特徵建立-基準面建構說明</a></font></span></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=1grwF-00Ydg&index=21&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B">
+		基準特徵建立-基準面練習</a></font></span></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=7n6UevFesxM&index=20&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B">
+		基準特徵建立-基準軸建構說明</a></font></span></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=QmQZKJy8gA4&index=26&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B">
+		基準特徵建立-基準軸練習</a></font></span></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=P5ZJo2CQFyA&index=25&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B">
+		基準特徵建立-基準點建構</a></font></span></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=A79MHXOrw9k&index=22&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B">
+		基準特徵建立-草繪幾何點</a></font></span></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=ISdicm1q9Rw&index=24&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B">
+		基準特徵建立-位移座標基準點</a></font></span></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=Kd-PZUHXkeM&index=29&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B">
+		基準特徵建立-基準座標系統的建立</a></font></span></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=6KUvOtfwSc8&index=28&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B">
+		基準特徵建立-曲線穿透點</a></font></span></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=DtWqEXS8E4M&index=27&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B">
+		基準特徵建立-來自方程式的曲線</a></font></span></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=0i5sQNF_tjU&index=31&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B">
+		基準特徵建立-來自方程式的曲線-螺旋曲線</a></font></span></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=Iqsm1R1diN4&index=30&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B">
+		基準特徵建立-基準特徵建構綜合練習</a></font></span></p>
+		<p align="left"><font size="5" face="微軟正黑體">&nbsp;&nbsp;&nbsp;&nbsp; Creo基礎設計-3</font></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=z5uNiyW2_jg&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B&index=16">
+		工程特徵建立-簡單孔</a></font></span></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=5NIxEov64WQ&index=13&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B">
+		工程特徵建立-草繪孔</a></font></span></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=BWAs0CNpDX8&index=18&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B">
+		工程特徵建立-標準孔-1</a></font></span></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=yjHmDy32Ayw&index=12&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B">
+		工程特徵建立-標準孔-2</a></font></span></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=ZDmcg0bEpBk&index=15&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B">
+		工程特徵建立-滑鼠進階選取操作</a></font></span></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=wUKdLyPP_uQ&index=17&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B">
+		工程特徵建立-圓角特徵-1</a></font></span></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=7XKU4tX7Me8&index=14&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B">
+		工程特徵建立-圓角練習</a></font></span></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=4z_TDddWhkk&index=11&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B">
+		工程特徵建立-倒角特徵</a></font></span></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=4Bgt5e2MkDM&index=10&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B">
+		工程特徵建立-肋特徵-輪廓肋</a></font></span></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=beypc4DFJJ0&index=9&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B">
+		工程特徵建立-肋特徵-軌跡肋</a></font></span></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=ciC3NdI1Z3U&index=6&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B">
+		工程特徵建立-拔模特徵-中性平面拔模</a></font></span></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=GswrdxOn6QA&index=7&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B">
+		工程特徵建立-拔模特徵-中性曲線拔模</a></font></span></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=huSvFkpQMms&index=8&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B">
+		工程特徵建立-可變角度拔模</a></font></span></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=0Uuv7A1kXiE&index=19&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B">
+		工程特徵建立-殼特徵</a></font></span></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=Isi3AFynG5k&index=5&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B">
+		工程特徵建立-拔模練習</a></font></span></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=QLcE25dwjPI&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B&index=4">
+		工程特徵建立-TQC-P209</a></font></span></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=3T5BUxuFWPg&t=1s&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B&index=3">
+		工程特徵建立-TQC-P2</a></font></span><font size="5"><span style="font-family: 微軟正黑體"><a href="https://www.youtube.com/watch?v=3T5BUxuFWPg&t=1s&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B&index=3">10</a></span></font></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=YRaPC_w2WuQ&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B&index=2">
+		工程特徵建立-TQC-P</a></font></span><font size="5"><span style="font-family: 微軟正黑體"><a href="https://www.youtube.com/watch?v=YRaPC_w2WuQ&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B&index=2">304</a></span></font></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=EYf1ULGGN4Q&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B&index=1">
+		工程特徵建立-TQC-P305</a></font></span></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=Metigl5-Hpw&index=32&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B&t=2s">
+		工程特徵建立-TQC-P310</a></font></span></p>
+		<p align="left"><font size="5" face="微軟正黑體">&nbsp;&nbsp;&nbsp;&nbsp; Creo基礎設計-4</font></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=UyFVk25uaho&index=44&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B">
+		基礎特徵建立-掃描特徵-1</a></font></span></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=ZjXgDHT08i4&index=43&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B">
+		基礎特徵建立-掃描特徵-</a></font></span><font size="5"><span style="font-family: 微軟正黑體"><a href="https://www.youtube.com/watch?v=ZjXgDHT08i4&index=43&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B">2</a></span></font></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=bmk04MrR6kk&index=45&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B&t=3s">
+		基礎特徵建立-掃描特徵-</a></font></span><font size="5"><span style="font-family: 微軟正黑體"><a href="https://www.youtube.com/watch?v=bmk04MrR6kk&index=45&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B&t=3s">3</a></span></font></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=ypS0k3PSa7s&index=46&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B&t=2s">
+		基礎特徵建立-掃描-TQC-P203</a></font></span></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=2rcogeq49Ks&index=47&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B">
+		基礎特徵建立-掃描-TQC-P204</a></font></span></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=ZZD_dvtrDwE&index=48&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B&t=2s">
+		基礎特徵建立-掃描-TQC-P206</a></font></span></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=Jc4s7hrU-y8&index=95&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B">
+		基礎特徵建立-掃描-TQC-P207</a></font></span></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=4bnJ3G4_9yY&index=86&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B">
+		基礎特徵建立-掃描-TQC-P208</a></font></span></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=ACLJnqL0jbw&index=87&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B">
+		基礎特徵建立-掃描-TQC-P308</a></font></span></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=INSQViQpHr8&index=88&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B">
+		基礎特徵建立-平行混成-1</a></font></span></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=8H_nWsPke_g&index=96&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B">
+		基礎特徵建立-平行混成-2</a></font></span></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=hWnoZksUwZg&index=89&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B">
+		基礎特徵建立-旋轉混成-1</a></font></span></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=EuXkxTdsuh0&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B&index=97">
+		基礎特徵建立-旋轉混成-</a></font></span><font size="5"><span style="font-family: 微軟正黑體"><a href="https://www.youtube.com/watch?v=EuXkxTdsuh0&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B&index=97">取得資料檔案系統</a></span></font></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=t_GJOuT7Wik&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B&index=90">
+		基礎特徵建立-旋轉混成-</a></font></span><font size="5"><span style="font-family: 微軟正黑體"><a href="https://www.youtube.com/watch?v=t_GJOuT7Wik&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B&index=90">所選截面</a></span></font></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=IaBdWMsZnvg&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B&index=98">
+		基礎特徵建立-旋轉混成-TQC-S307</a></font></span></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=AqzMUuugabM&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B&index=91">
+		基礎特徵建立-非平行混成</a></font></span></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=rOjHKUKnfeU&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B&index=92">
+		基礎特徵建立-</a></font></span><font size="5"><span style="font-family: 微軟正黑體"><a href="https://www.youtube.com/watch?v=rOjHKUKnfeU&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B&index=92">將舊式一般混成加到標籤中</a></span></font></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=vaKLym3OGeA&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B&index=93">
+		基礎特徵建立-一般混成</a></font></span></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=UqIZqqiWA1E&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B&index=94">
+		基礎特徵建立-一般混成-TQC-S30</a></font></span><font size="5"><span style="font-family: 微軟正黑體"><a href="https://www.youtube.com/watch?v=UqIZqqiWA1E&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B&index=94">8</a></span></font></p>
+		<p align="left"><font size="5" face="微軟正黑體">&nbsp;&nbsp;&nbsp;&nbsp; Creo基礎設計-5</font></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		</font></span><font size="5"><span style="font-family: 微軟正黑體">
+		<a href="https://www.youtube.com/watch?v=2V5H89nstdo&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B&index=125">
+		複製特徵-新參照</a></span></font></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=_6Qq3osuMw0&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B&index=127">
+		複製特徵-相同參照</a></font></span></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=-V0F1UeckIw&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B&index=128">
+		複製特徵-新操作模式</a></font></span></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=pO3e7BReeoA&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B&index=129">
+		鏡像(鏡射)</a></font></span></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=PItuCu2yQQY&index=130&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B">
+		移動複製-平移旋轉</a></font></span></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=_QVsG7JP4Tg&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B&index=131">
+		移動複製-選擇性貼上</a></font></span></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=jqnnpgJsJZE&index=132&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B">
+		尺寸陣列-1</a></font></span></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=m1UnZwhm2h0&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B&index=133">
+		尺寸陣列-2</a></font></span></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=Dw6B75LQxSg&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B&index=134">
+		尺寸陣列-3</a></font></span></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=VIPGz0_zND0&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B&index=135">
+		方向陣列</a></font></span></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=VbYdFPfzFTE&index=136&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B">
+		軸陣列</a></font></span></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=KW6GKzjBCqg&index=137&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B">
+		填充陣列-1</a></font></span></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=V5Ba_AgYL3g&index=138&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B">
+		填充陣列-曲線</a></font></span></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=Nz7VmcRdjGU&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B&index=139">
+		曲線陣列</a></font></span></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=GTCTRSoNL54&index=140&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B">
+		表格陣列</a></font></span></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=w5luOgQC5jc&index=141&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B">
+		表格陣列-使用表格資料檔</a></font></span></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=olMsGqDkTDU&index=142&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B">
+		參照陣列</a></font></span></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=epC8Xp4oKoc&index=143&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B">
+		橫截面-平面</a></font></span></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=UzGdR2erHaI&index=144&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B">
+		橫截面-位移</a></font></span></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=zfLFOH6veEs&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B&index=148">
+		TQC-P309</a></font></span></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=vEF87Xicsvg&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B&index=145">
+		TQC-P407</a></font></span></p>
+		<p align="left"><font size="5" face="微軟正黑體">&nbsp;&nbsp;&nbsp;&nbsp; Creo進階設計-基礎曲面與曲面編輯</font></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		</font></span><font size="5"><span style="font-family: 微軟正黑體">
+		<a href="https://www.youtube.com/watch?v=dFAkHgCVMBM&index=104&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B">
+		引伸曲面</a></span></font></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		</font></span><font size="5"><span style="font-family: 微軟正黑體">
+		<a href="https://www.youtube.com/watch?v=gnVEV7qlyxg&index=105&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B">
+		旋轉曲面</a></span></font></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		</font></span><font size="5"><span style="font-family: 微軟正黑體">
+		<a href="https://www.youtube.com/watch?v=JkAV0CetNIQ&index=103&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B">
+		填充曲面</a></span></font></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		</font></span><font size="5"><span style="font-family: 微軟正黑體">
+		<a href="https://www.youtube.com/watch?v=0jnMEtD1DWw&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B&index=107">
+		掃描曲面</a></span></font></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </font></span>
+		<font size="5"><span style="font-family: 微軟正黑體">
+		<a href="https://www.youtube.com/watch?v=MUhm36iejuA&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B&index=110">
+		複製曲面-1</a></span></font></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		</font></span><font size="5"><span style="font-family: 微軟正黑體">
+		<a href="https://www.youtube.com/watch?v=u1XLTwXzOjQ&t=13s&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B&index=106">
+		複製曲面-2</a></span></font></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		</font></span><font size="5"><span style="font-family: 微軟正黑體">
+		<a href="https://www.youtube.com/watch?v=dHC1zIB9X08&index=108&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B&t=45s">
+		複製曲線-1</a></span></font></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		</font></span><font size="5"><span style="font-family: 微軟正黑體">
+		<a href="https://www.youtube.com/watch?v=ZVTEHmFVsho&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B&index=109&t=155s">
+		複製曲線-2</a></span></font></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=dSqTfIxrByU&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B&index=114">
+		曲面的平移及旋轉</a></font></span></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=JBDS63v7lZM&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B&index=111">
+		曲線的平移及旋轉</a></font></span></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		</font></span><font size="5"><span style="font-family: 微軟正黑體">
+		<a href="https://www.youtube.com/watch?v=xaxgPtHHfYM&index=112&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B">
+		曲線及曲面鏡射</a></span></font></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=1NfLXRB8Fns&index=113&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B">
+		曲面法線反向</a></font></span></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=JO5OR8HG2aQ&index=119&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B">
+		相交曲線</a></font></span></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=iV67VpuWUYg&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B&index=118">
+		曲面合併</a></font></span></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=2lIbcA8jsNQ&index=116&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B">
+		投影2D曲線</a></font></span></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=Dybx9lU62j0&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B&index=115">
+		投影3D曲線</a></font></span></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=HSnEdn1KxWc&index=117&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B">
+		環繞曲線</a></font></span></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=Pbw6air1img&index=120&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B">
+		曲面及曲線裁剪</a></font></span></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=DoupPIadzBM&index=121&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B">
+		延伸曲面</a></font></span></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=JnckevjrB04&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B&index=126">
+		位移曲面</a></font></span></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=Jg9HOUb3jO4&index=149&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B">
+		位移曲線</a></font></span></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=0v0sUF-LGaw&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B&index=123">
+		加厚及實體化</a></font></span></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=Kx3aqup2Kb0&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B&index=122">
+		移除曲面及邊界線</a></font></span></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=lVdMhL0SLwM&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B&index=124">
+		曲線及曲面編輯的應用實例</a></font></span></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=1tbvvtARymA&index=147&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B">TQC-S505-1</a></font></span></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=S_5IFVgIqZM&index=146&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B">TQC-S505-</a></font></span><font size="5"><span style="font-family: 微軟正黑體"><a href="https://www.youtube.com/watch?v=S_5IFVgIqZM&index=146&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B">2</a></span></font></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		將</font></span><span style="font-family: 微軟正黑體"><font size="5">【截面圓頂】指令加入到【自選指令】群組</font></span></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		TQC-S504</font></span></p>
+		<p align="left"><font size="5" face="微軟正黑體">&nbsp;&nbsp;&nbsp;&nbsp; Creo進階設計-邊界混成</font></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		</font></span><font size="5"><span style="font-family: 微軟正黑體">
+		<a href="https://www.youtube.com/watch?v=JRodTZiYzMQ&index=162&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B">
+		邊界混成說明</a></span></font></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=z0X7JmO9-u0&index=150&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B">TQC-S</a></font></span><font size="5"><span style="font-family: 微軟正黑體"><a href="https://www.youtube.com/watch?v=z0X7JmO9-u0&index=150&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B">101</a></span></font></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=R4MgxSz_zsc&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B&index=151">TQC-S</a></font></span><font size="5"><span style="font-family: 微軟正黑體"><a href="https://www.youtube.com/watch?v=R4MgxSz_zsc&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B&index=151">103</a></span></font></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=cdQkH1K7UnA&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B&index=152">TQC-S</a></font></span><font size="5"><span style="font-family: 微軟正黑體"><a href="https://www.youtube.com/watch?v=cdQkH1K7UnA&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B&index=152">105</a></span></font></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=-OzAjJ6JJ04&index=153&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B">TQC-S</a></font></span><font size="5"><span style="font-family: 微軟正黑體"><a href="https://www.youtube.com/watch?v=-OzAjJ6JJ04&index=153&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B">106</a></span></font></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font></span><font size="5"><span style="font-family: 微軟正黑體">
+		<a href="https://www.youtube.com/watch?v=bN8aAgxerok&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B&index=154">
+		著色曲率與反射</a></span></font></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=mih3Hag-20E&index=155&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B">TQC-S</a></font></span><font size="5"><span style="font-family: 微軟正黑體"><a href="https://www.youtube.com/watch?v=mih3Hag-20E&index=155&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B">107</a></span></font></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=yGJ89CfU9Hw&index=156&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B">TQC-S</a></font></span><font size="5"><span style="font-family: 微軟正黑體"><a href="https://www.youtube.com/watch?v=yGJ89CfU9Hw&index=156&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B">201</a></span></font></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=WXyTOvO9boA&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B&index=157">TQC-S</a></font></span><font size="5"><span style="font-family: 微軟正黑體"><a href="https://www.youtube.com/watch?v=WXyTOvO9boA&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B&index=157">205</a></span></font></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=lvyU0FxTf0A&t=7s&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B&index=171">TQC-S</a></font></span><font size="5"><span style="font-family: 微軟正黑體"><a href="https://www.youtube.com/watch?v=lvyU0FxTf0A&t=7s&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B&index=171">206</a></span></font></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=NSwgcQ1eCXc&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B&index=158">TQC-S502</a></font></span></p>
+		<p align="left"><font size="5" face="微軟正黑體">&nbsp;&nbsp;&nbsp;&nbsp; Creo進階設計-掃描混成</font></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		</font></span><font size="5"><span style="font-family: 微軟正黑體">
+		<a href="https://www.youtube.com/watch?v=r-8SiGtJcRA&t=204s&index=172&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B">
+		掃描混成-練習1</a></span></font></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		</font></span><font size="5"><span style="font-family: 微軟正黑體">
+		<a href="https://www.youtube.com/watch?v=z1X8gkLru38&index=159&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B">
+		掃描混成-練習2-水龍頭</a></span></font></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		</font></span><font size="5"><span style="font-family: 微軟正黑體">
+		<a href="https://www.youtube.com/watch?v=AeBrm77KJY8&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B&index=160">
+		掃描混成-練習3</a></span></font></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		</font></span><font size="5"><span style="font-family: 微軟正黑體">
+		<a href="https://www.youtube.com/watch?v=0RvbUQx-q3E&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B&index=161">
+		掃描混成-練習4</a></span></font></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		</font></span><font size="5"><span style="font-family: 微軟正黑體">
+		<a href="https://www.youtube.com/watch?v=9enT6Vm4Q2Q&index=163&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B&t=23s">
+		TQC-S408</a></span></font></p>
+		<p align="left"><font size="5" face="微軟正黑體">&nbsp;&nbsp;&nbsp;&nbsp; Creo進階設計-可變截面掃描</font></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=qZopLW7JNio&index=180&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B">
+		可變截面掃描說明-1</a></font></span></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=JcoYSUSoCS4&index=179&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B">
+		可變截面掃描說明-</a></font></span><font size="5"><span style="font-family: 微軟正黑體"><a href="https://www.youtube.com/watch?v=JcoYSUSoCS4&index=179&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B">2</a></span></font></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=Ouah5ZCPwCc&index=164&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B">
+		可變截面掃描說明-3</a></font></span></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		</font></span><font size="5"><span style="font-family: 微軟正黑體">
+		<a href="https://www.youtube.com/watch?v=oTir0U8de7g&index=165&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B">
+		可變截面掃描-關係式</a></span></font></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=ICGiW4DAMGI&index=166&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B">
+		可變截面掃描-基準軌跡圖</a></font></span></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=I3_vEPnVe10&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B&index=181">
+		TQC-S401</a></font></span></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=V6_0tCwgRqA&index=182&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B">
+		TQC-S40</a></font></span><font size="5"><span style="font-family: 微軟正黑體"><a href="https://www.youtube.com/watch?v=V6_0tCwgRqA&index=182&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B">2</a></span></font></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		</font></span><font size="5"><span style="font-family: 微軟正黑體">
+		<a href="https://www.youtube.com/watch?v=vp30z-yBX_s&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B&index=183">
+		顏色設定與材質貼圖</a></span></font></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=wRHibE39HGU&index=167&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B">
+		TQC-S40</a></font></span><font size="5"><span style="font-family: 微軟正黑體"><a href="https://www.youtube.com/watch?v=wRHibE39HGU&index=167&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B">3</a></span></font></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=0gsUXkPhNE0&index=184&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B">
+		TQC-S40</a></font></span><font size="5"><span style="font-family: 微軟正黑體"><a href="https://www.youtube.com/watch?v=0gsUXkPhNE0&index=184&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B">4</a></span></font></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=ZWGWToEtT4w&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B&index=189">
+		TQC-S40</a></font></span><font size="5"><span style="font-family: 微軟正黑體"><a href="https://www.youtube.com/watch?v=ZWGWToEtT4w&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B&index=189">5</a></span></font></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=b0g6QiOL8bE&t=6s&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B&index=168">
+		TQC-S40</a></font></span><font size="5"><span style="font-family: 微軟正黑體"><a href="https://www.youtube.com/watch?v=b0g6QiOL8bE&t=6s&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B&index=168">6</a></span></font></p>
+		<p align="left"><font size="5" face="微軟正黑體">&nbsp;&nbsp;&nbsp;&nbsp; Creo進階設計-螺旋掃描</font></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		</font></span><font size="5"><span style="font-family: 微軟正黑體">
+		<a href="https://www.youtube.com/watch?v=MyO5RMlzQAY&index=169&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B">
+		螺旋掃描說明</a></span></font></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=q7NMxq4Z9iQ&index=170&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B">
+		TQC-S</a></font></span><font size="5"><span style="font-family: 微軟正黑體"><a href="https://www.youtube.com/watch?v=q7NMxq4Z9iQ&index=170&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B">501</a></span></font></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		</font></span><font size="5"><span style="font-family: 微軟正黑體">
+		<a href="https://www.youtube.com/watch?v=rfofkhSkyfc&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B&t=3s&index=173">
+		螺牙建立</a></span></font></p>
+		<p align="left"><font size="5" face="微軟正黑體">&nbsp;&nbsp;&nbsp;&nbsp; Creo進階設計-組合件
+		與機構模擬</font></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		</font></span><font size="5"><span style="font-family: 微軟正黑體">
+		<a href="https://www.youtube.com/watch?v=lNrWV4LmV48&index=190&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B">
+		組合件組裝說明</a></span></font></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		</font></span><font size="5"><span style="font-family: 微軟正黑體">
+		<a href="https://www.youtube.com/watch?v=REasF-kljlk&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B&index=191">
+		基礎組裝條件練習</a></span></font></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		</font></span><font size="5"><span style="font-family: 微軟正黑體">
+		<a href="https://www.youtube.com/watch?v=xe7prKRH4uY&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B&index=192">
+		鼓風機組裝實例</a></span></font></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		</font></span><font size="5"><span style="font-family: 微軟正黑體">
+		<a href="https://www.youtube.com/watch?v=7NfWo1dbbdg&index=193&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B">
+		螺孔螺牙處理</a></span></font></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		</font></span><font size="5"><span style="font-family: 微軟正黑體">
+		<a href="https://www.youtube.com/watch?v=T_w1ErqfxW0&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B&index=194">
+		搖擺機構組裝</a></span></font></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		</font></span><font size="5"><span style="font-family: 微軟正黑體">
+		<a href="https://www.youtube.com/watch?v=pME-13yR5FI&index=195&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B">
+		組件零件編輯切換與特徵操作</a></span></font></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		</font></span><font size="5"><span style="font-family: 微軟正黑體">
+		<a href="https://www.youtube.com/watch?v=fe3GT3485Ik&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B&index=196">
+		干涉檢查</a></span></font></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		</font></span><font size="5"><span style="font-family: 微軟正黑體">
+		<a href="https://www.youtube.com/watch?v=B-Trw0SnBN8&index=197&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B">
+		干涉解決</a></span></font></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		</font></span><font size="5"><span style="font-family: 微軟正黑體">
+		<a href="https://www.youtube.com/watch?v=LSRUgm0JP7U&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B&index=198">
+		連接條件組裝</a></span></font></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		</font></span><font size="5"><span style="font-family: 微軟正黑體">
+		<a href="https://www.youtube.com/watch?v=eIekqembiB8&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B&index=199">
+		機構模擬-搖擺機構</a></span></font></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=vUpL9HLlUK4&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B&index=200">
+		連接條件組裝與機構模擬-萬向接頭</a></font></span></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=8-39w6_bGE0&index=201&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B">
+		連接條件組裝與機構模擬-單軸引擎</a></font></span></p>
+		<p align="left"><font size="5" face="微軟正黑體">&nbsp;&nbsp;&nbsp;&nbsp; Creo進階設計-TOP-DOWN 
+		DESIGN</font></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		</font></span><font size="5" face="微軟正黑體">
+		<a href="https://www.youtube.com/watch?v=EKiCR0KBv14&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B&index=174&t=1s">
+		TOP-DOWN DESIGN-1</a></font></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		</font></span><font size="5" face="微軟正黑體">
+		<a href="https://www.youtube.com/watch?v=Ih26X8XT8n8&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B&index=175">
+		TOP-DOWN DESIGN-2</a></font></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		</font></span><font size="5" face="微軟正黑體">
+		<a href="https://www.youtube.com/watch?v=iwfBPKdWO1k&index=176&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B">
+		TOP-DOWN DESIGN-3</a></font></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		</font></span><font size="5" face="微軟正黑體">
+		<a href="https://www.youtube.com/watch?v=6ALrjoLhmbA&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B&index=177">
+		TOP-DOWN DESIGN-4</a></font></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		</font></span><font size="5" face="微軟正黑體">
+		<a href="https://www.youtube.com/watch?v=swHNB2Nir4k&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B&index=178">
+		TOP-DOWN DESIGN-5</a></font></p>
+		<p align="left"><font size="5" face="微軟正黑體">&nbsp;&nbsp;&nbsp;&nbsp; Creo進階設計-爆炸圖</font></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=2rE3Da6foVk&index=202&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B">
+		爆炸圖製作</a></font></span></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		</font></span><font size="5"><span style="font-family: 微軟正黑體">
+		<a href="https://www.youtube.com/watch?v=xjUkFkUTudY&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B&index=203">
+		爆炸位移線</a></span></font></p>
+		<p align="left"><font size="5" face="微軟正黑體">&nbsp;&nbsp;&nbsp;&nbsp; Creo進階設計-工程圖</font></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=ZeEfBrqsl9Y&index=186&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B">
+		圖框格式-外框與區域標示線</a></font></span></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=LekgNiOW8vQ&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B&index=185">
+		圖框格式-區域標示註記</a></font></span></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=eNWmXOWfw3M&index=187&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B&spfreload=5">
+		圖框格式-表格製作</a></font></span></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=cbjHaoSf2r0&list=PL-_BHhFxZDh_vPupOahIQOVYjxK4Os-6B&index=188">
+		圖框格式-表格文字與系統參數</a></font></span></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;
+		<font color="#FFFFFF"><b><span style="background-color: #FF00FF">
+		<a name="Pro/E-Wildfire 教學">Pro/E-Wildfire 教學</a></span></b></font></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;
+		<font color="#FFFFFF"><a name="Pro/E-Wildfire_TQC專業級"><b>
+		<span style="background-color: #FF00FF">Pro/E-Wildfire </span></b></a>
+		</font>
+		</font><b><a name="Pro/E-Wildfire_TQC專業級">
+		<font face="微軟正黑體" size="5" color="#FFFFFF">
+		<span style="background-color: #FF00FF">TQC專業級</span></font></a></b></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=EAAh3ZecaeE&index=57&list=PL-_BHhFxZDh8jji5WlLaC6fBGd9-gUY_F">TQC-P</a></font></span><font size="5"><span style="font-family: 微軟正黑體"><a href="https://www.youtube.com/watch?v=EAAh3ZecaeE&index=57&list=PL-_BHhFxZDh8jji5WlLaC6fBGd9-gUY_F">101</a></span></font></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=dDOa0RsDf6M&list=PL-_BHhFxZDh8jji5WlLaC6fBGd9-gUY_F&index=56">TQC-P</a></font></span><font size="5"><span style="font-family: 微軟正黑體"><a href="https://www.youtube.com/watch?v=dDOa0RsDf6M&list=PL-_BHhFxZDh8jji5WlLaC6fBGd9-gUY_F&index=56">102</a></span></font></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=z0Z_4mWuajE&list=PL-_BHhFxZDh8jji5WlLaC6fBGd9-gUY_F&index=55">TQC-P</a></font></span><font size="5"><span style="font-family: 微軟正黑體"><a href="https://www.youtube.com/watch?v=z0Z_4mWuajE&list=PL-_BHhFxZDh8jji5WlLaC6fBGd9-gUY_F&index=55">103</a></span></font></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=DYLzhWjBHl4&list=PL-_BHhFxZDh8jji5WlLaC6fBGd9-gUY_F&index=54">TQC-P</a></font></span><font size="5"><span style="font-family: 微軟正黑體"><a href="https://www.youtube.com/watch?v=DYLzhWjBHl4&list=PL-_BHhFxZDh8jji5WlLaC6fBGd9-gUY_F&index=54">104</a></span></font></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=VK6na83xGEs&index=53&list=PL-_BHhFxZDh8jji5WlLaC6fBGd9-gUY_F">TQC-P</a></font></span><font size="5"><span style="font-family: 微軟正黑體"><a href="https://www.youtube.com/watch?v=VK6na83xGEs&index=53&list=PL-_BHhFxZDh8jji5WlLaC6fBGd9-gUY_F">105</a></span></font></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=ftUZGslkLwQ&list=PL-_BHhFxZDh8jji5WlLaC6fBGd9-gUY_F&index=52">TQC-P</a></font></span><font size="5"><span style="font-family: 微軟正黑體"><a href="https://www.youtube.com/watch?v=ftUZGslkLwQ&list=PL-_BHhFxZDh8jji5WlLaC6fBGd9-gUY_F&index=52">106</a></span></font></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=Yntv1KUlvcg&index=51&list=PL-_BHhFxZDh8jji5WlLaC6fBGd9-gUY_F">TQC-P</a></font></span><font size="5"><span style="font-family: 微軟正黑體"><a href="https://www.youtube.com/watch?v=Yntv1KUlvcg&index=51&list=PL-_BHhFxZDh8jji5WlLaC6fBGd9-gUY_F">107</a></span></font></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=S7sBoilnP4U&index=50&list=PL-_BHhFxZDh8jji5WlLaC6fBGd9-gUY_F">TQC-P</a></font></span><font size="5"><span style="font-family: 微軟正黑體"><a href="https://www.youtube.com/watch?v=S7sBoilnP4U&index=50&list=PL-_BHhFxZDh8jji5WlLaC6fBGd9-gUY_F">108</a></span></font></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=X1zq8w2_NKo&list=PL-_BHhFxZDh8jji5WlLaC6fBGd9-gUY_F&index=49">TQC-P</a></font></span><font size="5"><span style="font-family: 微軟正黑體"><a href="https://www.youtube.com/watch?v=X1zq8w2_NKo&list=PL-_BHhFxZDh8jji5WlLaC6fBGd9-gUY_F&index=49">109</a></span></font></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=trPLncSqImU&list=PL-_BHhFxZDh8jji5WlLaC6fBGd9-gUY_F&index=48">TQC-P</a></font></span><font size="5"><span style="font-family: 微軟正黑體"><a href="https://www.youtube.com/watch?v=trPLncSqImU&list=PL-_BHhFxZDh8jji5WlLaC6fBGd9-gUY_F&index=48">110</a></span></font></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=gGfj8iZ81hI&list=PL-_BHhFxZDh8jji5WlLaC6fBGd9-gUY_F&index=47">TQC-P</a></font></span><font size="5"><span style="font-family: 微軟正黑體"><a href="https://www.youtube.com/watch?v=gGfj8iZ81hI&list=PL-_BHhFxZDh8jji5WlLaC6fBGd9-gUY_F&index=47">201</a></span></font></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=pNI_sj5HLWo&list=PL-_BHhFxZDh8jji5WlLaC6fBGd9-gUY_F&index=46">TQC-P</a></font></span><font size="5"><span style="font-family: 微軟正黑體"><a href="https://www.youtube.com/watch?v=pNI_sj5HLWo&list=PL-_BHhFxZDh8jji5WlLaC6fBGd9-gUY_F&index=46">202</a></span></font></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=Oje74yNVtMs&list=PL-_BHhFxZDh8jji5WlLaC6fBGd9-gUY_F&index=43">TQC-P</a></font></span><font size="5"><span style="font-family: 微軟正黑體"><a href="https://www.youtube.com/watch?v=Oje74yNVtMs&list=PL-_BHhFxZDh8jji5WlLaC6fBGd9-gUY_F&index=43">203</a></span></font></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=ZFcnzh3vjMk&list=PL-_BHhFxZDh8jji5WlLaC6fBGd9-gUY_F&index=42">TQC-P</a></font></span><font size="5"><span style="font-family: 微軟正黑體"><a href="https://www.youtube.com/watch?v=ZFcnzh3vjMk&list=PL-_BHhFxZDh8jji5WlLaC6fBGd9-gUY_F&index=42">204</a></span></font></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=tMjsRXXqtOQ&list=PL-_BHhFxZDh8jji5WlLaC6fBGd9-gUY_F&index=41">TQC-P</a></font></span><font size="5"><span style="font-family: 微軟正黑體"><a href="https://www.youtube.com/watch?v=tMjsRXXqtOQ&list=PL-_BHhFxZDh8jji5WlLaC6fBGd9-gUY_F&index=41">205</a></span></font></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=Q70CCqIYb6o&list=PL-_BHhFxZDh8jji5WlLaC6fBGd9-gUY_F&index=40">TQC-P</a></font></span><font size="5"><span style="font-family: 微軟正黑體"><a href="https://www.youtube.com/watch?v=Q70CCqIYb6o&list=PL-_BHhFxZDh8jji5WlLaC6fBGd9-gUY_F&index=40">206</a></span></font></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=k_E32bel1UU&index=39&list=PL-_BHhFxZDh8jji5WlLaC6fBGd9-gUY_F">TQC-P</a></font></span><font size="5"><span style="font-family: 微軟正黑體"><a href="https://www.youtube.com/watch?v=k_E32bel1UU&index=39&list=PL-_BHhFxZDh8jji5WlLaC6fBGd9-gUY_F">207</a></span></font></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=AtMFeD-_yfI&list=PL-_BHhFxZDh8jji5WlLaC6fBGd9-gUY_F&index=38">TQC-P</a></font></span><font size="5"><span style="font-family: 微軟正黑體"><a href="https://www.youtube.com/watch?v=AtMFeD-_yfI&list=PL-_BHhFxZDh8jji5WlLaC6fBGd9-gUY_F&index=38">208</a></span></font></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=bCXUuzORH-w&list=PL-_BHhFxZDh8jji5WlLaC6fBGd9-gUY_F&index=37">TQC-P</a></font></span><font size="5"><span style="font-family: 微軟正黑體"><a href="https://www.youtube.com/watch?v=bCXUuzORH-w&list=PL-_BHhFxZDh8jji5WlLaC6fBGd9-gUY_F&index=37">209</a></span></font></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=PP74UEUt4vo&index=36&list=PL-_BHhFxZDh8jji5WlLaC6fBGd9-gUY_F">TQC-P210-1</a></font></span></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=OhpPdpnp0-8&list=PL-_BHhFxZDh8jji5WlLaC6fBGd9-gUY_F&index=35">TQC-P210-2</a></font></span></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=ZlhgDy0fMgA&list=PL-_BHhFxZDh8jji5WlLaC6fBGd9-gUY_F&index=45">TQC-P3</a></font></span><font size="5"><span style="font-family: 微軟正黑體"><a href="https://www.youtube.com/watch?v=ZlhgDy0fMgA&list=PL-_BHhFxZDh8jji5WlLaC6fBGd9-gUY_F&index=45">01</a></span></font></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=waKcfg_Jwf4&index=44&list=PL-_BHhFxZDh8jji5WlLaC6fBGd9-gUY_F">TQC-P3</a></font></span><font size="5"><span style="font-family: 微軟正黑體"><a href="https://www.youtube.com/watch?v=waKcfg_Jwf4&index=44&list=PL-_BHhFxZDh8jji5WlLaC6fBGd9-gUY_F">02</a></span></font></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=bLltO-qm4Kk&index=34&list=PL-_BHhFxZDh8jji5WlLaC6fBGd9-gUY_F">TQC-P3</a></font></span><font size="5"><span style="font-family: 微軟正黑體"><a href="https://www.youtube.com/watch?v=bLltO-qm4Kk&index=34&list=PL-_BHhFxZDh8jji5WlLaC6fBGd9-gUY_F">03</a></span></font></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=crcHq7DNdGA&list=PL-_BHhFxZDh8jji5WlLaC6fBGd9-gUY_F&index=33">TQC-P</a></font></span><font size="5"><span style="font-family: 微軟正黑體"><a href="https://www.youtube.com/watch?v=crcHq7DNdGA&list=PL-_BHhFxZDh8jji5WlLaC6fBGd9-gUY_F&index=33">304</a></span></font></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=7F2wcuPLQO0&list=PL-_BHhFxZDh8jji5WlLaC6fBGd9-gUY_F&index=32">TQC-P</a></font></span><font size="5"><span style="font-family: 微軟正黑體"><a href="https://www.youtube.com/watch?v=7F2wcuPLQO0&list=PL-_BHhFxZDh8jji5WlLaC6fBGd9-gUY_F&index=32">305</a></span></font></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=ifpa69Ci9fE&list=PL-_BHhFxZDh8jji5WlLaC6fBGd9-gUY_F&index=31">TQC-P</a></font></span><font size="5"><span style="font-family: 微軟正黑體"><a href="https://www.youtube.com/watch?v=ifpa69Ci9fE&list=PL-_BHhFxZDh8jji5WlLaC6fBGd9-gUY_F&index=31">306</a></span></font></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=0nopSTF_nGg&list=PL-_BHhFxZDh8jji5WlLaC6fBGd9-gUY_F&index=30">TQC-P</a></font></span><font size="5"><span style="font-family: 微軟正黑體"><a href="https://www.youtube.com/watch?v=0nopSTF_nGg&list=PL-_BHhFxZDh8jji5WlLaC6fBGd9-gUY_F&index=30">307</a></span></font></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=McYTbmknFsU&list=PL-_BHhFxZDh8jji5WlLaC6fBGd9-gUY_F&index=29">TQC-P</a></font></span><font size="5"><span style="font-family: 微軟正黑體"><a href="https://www.youtube.com/watch?v=McYTbmknFsU&list=PL-_BHhFxZDh8jji5WlLaC6fBGd9-gUY_F&index=29">308</a></span></font></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=vria2_Pm8ZA&index=28&list=PL-_BHhFxZDh8jji5WlLaC6fBGd9-gUY_F">TQC-P</a></font></span><font size="5"><span style="font-family: 微軟正黑體"><a href="https://www.youtube.com/watch?v=vria2_Pm8ZA&index=28&list=PL-_BHhFxZDh8jji5WlLaC6fBGd9-gUY_F">309</a></span></font></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=BQcFU1aUTmE&list=PL-_BHhFxZDh8jji5WlLaC6fBGd9-gUY_F&index=27">TQC-P</a></font></span><font size="5"><span style="font-family: 微軟正黑體"><a href="https://www.youtube.com/watch?v=BQcFU1aUTmE&list=PL-_BHhFxZDh8jji5WlLaC6fBGd9-gUY_F&index=27">310</a></span></font></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=Qdmbfp5pRc0&index=26&list=PL-_BHhFxZDh8jji5WlLaC6fBGd9-gUY_F">TQC-P</a></font></span><font size="5"><span style="font-family: 微軟正黑體"><a href="https://www.youtube.com/watch?v=Qdmbfp5pRc0&index=26&list=PL-_BHhFxZDh8jji5WlLaC6fBGd9-gUY_F">401</a></span></font></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=OtgW9lxj7HI&index=25&list=PL-_BHhFxZDh8jji5WlLaC6fBGd9-gUY_F">TQC-P</a></font></span><font size="5"><span style="font-family: 微軟正黑體"><a href="https://www.youtube.com/watch?v=OtgW9lxj7HI&index=25&list=PL-_BHhFxZDh8jji5WlLaC6fBGd9-gUY_F">402</a></span></font></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=1vPX4jadYLQ&list=PL-_BHhFxZDh8jji5WlLaC6fBGd9-gUY_F&index=24">TQC-P</a></font></span><font size="5"><span style="font-family: 微軟正黑體"><a href="https://www.youtube.com/watch?v=1vPX4jadYLQ&list=PL-_BHhFxZDh8jji5WlLaC6fBGd9-gUY_F&index=24">403</a></span></font></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=ta4KQu7rnt8&index=23&list=PL-_BHhFxZDh8jji5WlLaC6fBGd9-gUY_F">TQC-P</a></font></span><font size="5"><span style="font-family: 微軟正黑體"><a href="https://www.youtube.com/watch?v=ta4KQu7rnt8&index=23&list=PL-_BHhFxZDh8jji5WlLaC6fBGd9-gUY_F">404</a></span></font></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=EN09NpK1rC8&list=PL-_BHhFxZDh8jji5WlLaC6fBGd9-gUY_F&index=22">TQC-P</a></font></span><font size="5"><span style="font-family: 微軟正黑體"><a href="https://www.youtube.com/watch?v=EN09NpK1rC8&list=PL-_BHhFxZDh8jji5WlLaC6fBGd9-gUY_F&index=22">405</a></span></font></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=6L0XxOrxZog&index=21&list=PL-_BHhFxZDh8jji5WlLaC6fBGd9-gUY_F">TQC-P</a></font></span><font size="5"><span style="font-family: 微軟正黑體"><a href="https://www.youtube.com/watch?v=6L0XxOrxZog&index=21&list=PL-_BHhFxZDh8jji5WlLaC6fBGd9-gUY_F">406</a></span></font></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=CRGgXhQD87o&list=PL-_BHhFxZDh8jji5WlLaC6fBGd9-gUY_F&index=20">TQC-P</a></font></span><font size="5"><span style="font-family: 微軟正黑體"><a href="https://www.youtube.com/watch?v=CRGgXhQD87o&list=PL-_BHhFxZDh8jji5WlLaC6fBGd9-gUY_F&index=20">407</a></span></font></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=h54vsBLx6Kg&list=PL-_BHhFxZDh8jji5WlLaC6fBGd9-gUY_F&index=19">TQC-P</a></font></span><font size="5"><span style="font-family: 微軟正黑體"><a href="https://www.youtube.com/watch?v=h54vsBLx6Kg&list=PL-_BHhFxZDh8jji5WlLaC6fBGd9-gUY_F&index=19">408-1</a></span></font></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=xfAsEBURusA&list=PL-_BHhFxZDh8jji5WlLaC6fBGd9-gUY_F&index=18">TQC-P</a></font></span><font size="5"><span style="font-family: 微軟正黑體"><a href="https://www.youtube.com/watch?v=xfAsEBURusA&list=PL-_BHhFxZDh8jji5WlLaC6fBGd9-gUY_F&index=18">408-2</a></span></font></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=1vKrh0J6AMg&index=17&list=PL-_BHhFxZDh8jji5WlLaC6fBGd9-gUY_F">TQC-P409</a></font></span></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=mOIN05H8ocE&index=16&list=PL-_BHhFxZDh8jji5WlLaC6fBGd9-gUY_F">TQC-P410</a></font></span></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=PP6YxVB0m-4&list=PL-_BHhFxZDh8jji5WlLaC6fBGd9-gUY_F&index=15">TQC-P</a></font></span><font size="5"><span style="font-family: 微軟正黑體"><a href="https://www.youtube.com/watch?v=PP6YxVB0m-4&list=PL-_BHhFxZDh8jji5WlLaC6fBGd9-gUY_F&index=15">501</a></span></font></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=PViZqAFYEJM&list=PL-_BHhFxZDh8jji5WlLaC6fBGd9-gUY_F&index=14">TQC-P</a></font></span><font size="5"><span style="font-family: 微軟正黑體"><a href="https://www.youtube.com/watch?v=PViZqAFYEJM&list=PL-_BHhFxZDh8jji5WlLaC6fBGd9-gUY_F&index=14">502</a></span></font></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=eRarNx9QI2M&index=13&list=PL-_BHhFxZDh8jji5WlLaC6fBGd9-gUY_F">TQC-P</a></font></span><font size="5"><span style="font-family: 微軟正黑體"><a href="https://www.youtube.com/watch?v=eRarNx9QI2M&index=13&list=PL-_BHhFxZDh8jji5WlLaC6fBGd9-gUY_F">503</a></span></font></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=eXR3G5l_Zu8&index=12&list=PL-_BHhFxZDh8jji5WlLaC6fBGd9-gUY_F">TQC-P</a></font></span><font size="5"><span style="font-family: 微軟正黑體"><a href="https://www.youtube.com/watch?v=eXR3G5l_Zu8&index=12&list=PL-_BHhFxZDh8jji5WlLaC6fBGd9-gUY_F">503-圓角解決方法</a></span></font></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=91aa2wRsWUQ&index=11&list=PL-_BHhFxZDh8jji5WlLaC6fBGd9-gUY_F">TQC-P</a></font></span><font size="5"><span style="font-family: 微軟正黑體"><a href="https://www.youtube.com/watch?v=91aa2wRsWUQ&index=11&list=PL-_BHhFxZDh8jji5WlLaC6fBGd9-gUY_F">504-1</a></span></font></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=sVixhBF_CmU&index=10&list=PL-_BHhFxZDh8jji5WlLaC6fBGd9-gUY_F">TQC-P</a></font></span><font size="5"><span style="font-family: 微軟正黑體"><a href="https://www.youtube.com/watch?v=sVixhBF_CmU&index=10&list=PL-_BHhFxZDh8jji5WlLaC6fBGd9-gUY_F">504-2</a></span></font></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=ljpx0xkw6U4&index=9&list=PL-_BHhFxZDh8jji5WlLaC6fBGd9-gUY_F">TQC-P</a></font></span><font size="5"><span style="font-family: 微軟正黑體"><a href="https://www.youtube.com/watch?v=ljpx0xkw6U4&index=9&list=PL-_BHhFxZDh8jji5WlLaC6fBGd9-gUY_F">505</a></span></font></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=Z_i2yY5b4GU&index=8&list=PL-_BHhFxZDh8jji5WlLaC6fBGd9-gUY_F">TQC-P</a></font></span><font size="5"><span style="font-family: 微軟正黑體"><a href="https://www.youtube.com/watch?v=Z_i2yY5b4GU&index=8&list=PL-_BHhFxZDh8jji5WlLaC6fBGd9-gUY_F">506-1</a></span></font></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=zkX1vLgKYds&list=PL-_BHhFxZDh8jji5WlLaC6fBGd9-gUY_F&index=7">TQC-P</a></font></span><font size="5"><span style="font-family: 微軟正黑體"><a href="https://www.youtube.com/watch?v=zkX1vLgKYds&list=PL-_BHhFxZDh8jji5WlLaC6fBGd9-gUY_F&index=7">506-2</a></span></font></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=XWdZu5zbDJ4&index=6&list=PL-_BHhFxZDh8jji5WlLaC6fBGd9-gUY_F">TQC-P</a></font></span><font size="5"><span style="font-family: 微軟正黑體"><a href="https://www.youtube.com/watch?v=XWdZu5zbDJ4&index=6&list=PL-_BHhFxZDh8jji5WlLaC6fBGd9-gUY_F">507-1</a></span></font></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=dPAQV9ocHZQ&index=5&list=PL-_BHhFxZDh8jji5WlLaC6fBGd9-gUY_F">TQC-P</a></font></span><font size="5"><span style="font-family: 微軟正黑體"><a href="https://www.youtube.com/watch?v=dPAQV9ocHZQ&index=5&list=PL-_BHhFxZDh8jji5WlLaC6fBGd9-gUY_F">507-2</a></span></font></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=AXzhk5gsn8o&list=PL-_BHhFxZDh8jji5WlLaC6fBGd9-gUY_F&index=4">TQC-P</a></font></span><font size="5"><span style="font-family: 微軟正黑體"><a href="https://www.youtube.com/watch?v=AXzhk5gsn8o&list=PL-_BHhFxZDh8jji5WlLaC6fBGd9-gUY_F&index=4">508</a></span></font></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=MWq63mM0ksk&list=PL-_BHhFxZDh8jji5WlLaC6fBGd9-gUY_F&index=3">TQC-P</a></font></span><font size="5"><span style="font-family: 微軟正黑體"><a href="https://www.youtube.com/watch?v=MWq63mM0ksk&list=PL-_BHhFxZDh8jji5WlLaC6fBGd9-gUY_F&index=3">509</a></span></font></p>
+		<p align="left"><span style="font-family: 微軟正黑體; color: black">
+		<font size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=wYsTnXb4iS0&list=PL-_BHhFxZDh8jji5WlLaC6fBGd9-gUY_F&index=2">TQC-P</a></font></span><font size="5"><span style="font-family: 微軟正黑體"><a href="https://www.youtube.com/watch?v=wYsTnXb4iS0&list=PL-_BHhFxZDh8jji5WlLaC6fBGd9-gUY_F&index=2">510</a></span></font></p>　</td>
+	</tr>
+</table>
+
+</body>
+
+</html>

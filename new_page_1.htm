@@ -1,0 +1,63 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=big5">
+<title>新增網頁1</title>
+<script language="JavaScript">
+<!--
+function FP_preloadImgs() {//v1.0
+ var d=document,a=arguments; if(!d.FP_imgs) d.FP_imgs=new Array();
+ for(var i=0; i<a.length; i++) { d.FP_imgs[i]=new Image; d.FP_imgs[i].src=a[i]; }
+}
+
+function FP_swapImg() {//v1.0
+ var doc=document,args=arguments,elm,n; doc.$imgSwaps=new Array(); for(n=2; n<args.length;
+ n+=2) { elm=FP_getObjectByID(args[n]); if(elm) { doc.$imgSwaps[doc.$imgSwaps.length]=elm;
+ elm.$src=elm.src; elm.src=args[n+1]; } }
+}
+
+function FP_getObjectByID(id,o) {//v1.0
+ var c,el,els,f,m,n; if(!o)o=document; if(o.getElementById) el=o.getElementById(id);
+ else if(o.layers) c=o.layers; else if(o.all) el=o.all[id]; if(el) return el;
+ if(o.id==id || o.name==id) return o; if(o.childNodes) c=o.childNodes; if(c)
+ for(n=0; n<c.length; n++) { el=FP_getObjectByID(id,c[n]); if(el) return el; }
+ f=o.forms; if(f) for(n=0; n<f.length; n++) { els=f[n].elements;
+ for(m=0; m<els.length; m++){ el=FP_getObjectByID(id,els[n]); if(el) return el; } }
+ return null;
+}
+// -->
+</script>
+</head>
+
+<body onload="FP_preloadImgs(/*url*/'button17.jpg', /*url*/'button18.jpg', /*url*/'button1B.jpg', /*url*/'button1C.jpg')">
+
+<p><a href="http://www.ardendesign.net">
+<img border="0" src="logo.jpg" width="970" height="182"></a></p>
+<table border="1" width="100%">
+	<tr>
+		<td>　</td>
+	</tr>
+</table>
+<p>
+<img border="0" id="img1" src="button16.jpg" height="30" width="150" alt="按鈕文字" fp-style="fp-btn: Embossed Capsule 1; fp-font: 微軟正黑體; fp-font-style: Bold; fp-font-size: 12" fp-title="按鈕文字" onmouseover="FP_swapImg(1,0,/*id*/'img1',/*url*/'button17.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img1',/*url*/'button16.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img1',/*url*/'button18.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img1',/*url*/'button17.jpg')"></p>
+<p>
+<img border="0" id="img10" src="button1A.jpg" height="30" width="150" alt="教師簡歷" onmouseover="FP_swapImg(1,0,/*id*/'img10',/*url*/'button1B.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img10',/*url*/'button1A.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img10',/*url*/'button1C.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img10',/*url*/'button1B.jpg')" fp-style="fp-btn: Embossed Capsule 1; fp-font: 微軟正黑體; fp-font-style: Bold; fp-font-size: 12" fp-title="教師簡歷"></p>
+<p>
+<img border="0" id="img3" src="button16.jpg" height="30" width="150" alt="按鈕文字" fp-style="fp-btn: Embossed Capsule 1; fp-font: 微軟正黑體; fp-font-style: Bold; fp-font-size: 12; fp-orig: 0" fp-title="按鈕文字" onmouseover="FP_swapImg(1,0,/*id*/'img3',/*url*/'button17.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img3',/*url*/'button16.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img3',/*url*/'button18.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img3',/*url*/'button17.jpg')"></p>
+<p>
+<img border="0" id="img5" src="button16.jpg" height="30" width="150" alt="按鈕文字" fp-style="fp-btn: Embossed Capsule 1; fp-font: 微軟正黑體; fp-font-style: Bold; fp-font-size: 12; fp-orig: 0" fp-title="按鈕文字" onmouseover="FP_swapImg(1,0,/*id*/'img5',/*url*/'button17.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img5',/*url*/'button16.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img5',/*url*/'button18.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img5',/*url*/'button17.jpg')"></p>
+<p>
+<img border="0" id="img4" src="button16.jpg" height="30" width="150" alt="按鈕文字" fp-style="fp-btn: Embossed Capsule 1; fp-font: 微軟正黑體; fp-font-style: Bold; fp-font-size: 12; fp-orig: 0" fp-title="按鈕文字" onmouseover="FP_swapImg(1,0,/*id*/'img4',/*url*/'button17.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img4',/*url*/'button16.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img4',/*url*/'button18.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img4',/*url*/'button17.jpg')"></p>
+<p>
+<img border="0" id="img6" src="button16.jpg" height="30" width="150" alt="按鈕文字" fp-style="fp-btn: Embossed Capsule 1; fp-font: 微軟正黑體; fp-font-style: Bold; fp-font-size: 12; fp-orig: 0" fp-title="按鈕文字" onmouseover="FP_swapImg(1,0,/*id*/'img6',/*url*/'button17.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img6',/*url*/'button16.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img6',/*url*/'button18.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img6',/*url*/'button17.jpg')"></p>
+<p>
+<img border="0" id="img7" src="button16.jpg" height="30" width="150" alt="按鈕文字" fp-style="fp-btn: Embossed Capsule 1; fp-font: 微軟正黑體; fp-font-style: Bold; fp-font-size: 12; fp-orig: 0" fp-title="按鈕文字" onmouseover="FP_swapImg(1,0,/*id*/'img7',/*url*/'button17.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img7',/*url*/'button16.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img7',/*url*/'button18.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img7',/*url*/'button17.jpg')"></p>
+<p>
+<img border="0" id="img8" src="button16.jpg" height="30" width="150" alt="按鈕文字" fp-style="fp-btn: Embossed Capsule 1; fp-font: 微軟正黑體; fp-font-style: Bold; fp-font-size: 12; fp-orig: 0" fp-title="按鈕文字" onmouseover="FP_swapImg(1,0,/*id*/'img8',/*url*/'button17.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img8',/*url*/'button16.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img8',/*url*/'button18.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img8',/*url*/'button17.jpg')"></p>
+<p>
+<img border="0" id="img9" src="button16.jpg" height="30" width="150" alt="按鈕文字" fp-style="fp-btn: Embossed Capsule 1; fp-font: 微軟正黑體; fp-font-style: Bold; fp-font-size: 12; fp-orig: 0" fp-title="按鈕文字" onmouseover="FP_swapImg(1,0,/*id*/'img9',/*url*/'button17.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img9',/*url*/'button16.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img9',/*url*/'button18.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img9',/*url*/'button17.jpg')"></p>
+<p>　</p>
+
+</body>
+
+</html>

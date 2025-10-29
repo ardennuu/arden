@@ -1,0 +1,907 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="zh-tw">
+<meta http-equiv="Content-Type" content="text/html; charset=big5">
+<title>新增網頁2</title>
+<script language="JavaScript">
+<!--
+function FP_swapImg() {//v1.0
+ var doc=document,args=arguments,elm,n; doc.$imgSwaps=new Array(); for(n=2; n<args.length;
+ n+=2) { elm=FP_getObjectByID(args[n]); if(elm) { doc.$imgSwaps[doc.$imgSwaps.length]=elm;
+ elm.$src=elm.src; elm.src=args[n+1]; } }
+}
+
+function FP_preloadImgs() {//v1.0
+ var d=document,a=arguments; if(!d.FP_imgs) d.FP_imgs=new Array();
+ for(var i=0; i<a.length; i++) { d.FP_imgs[i]=new Image; d.FP_imgs[i].src=a[i]; }
+}
+
+function FP_getObjectByID(id,o) {//v1.0
+ var c,el,els,f,m,n; if(!o)o=document; if(o.getElementById) el=o.getElementById(id);
+ else if(o.layers) c=o.layers; else if(o.all) el=o.all[id]; if(el) return el;
+ if(o.id==id || o.name==id) return o; if(o.childNodes) c=o.childNodes; if(c)
+ for(n=0; n<c.length; n++) { el=FP_getObjectByID(id,c[n]); if(el) return el; }
+ f=o.forms; if(f) for(n=0; n<f.length; n++) { els=f[n].elements;
+ for(m=0; m<els.length; m++){ el=FP_getObjectByID(id,els[n]); if(el) return el; } }
+ return null;
+}
+// -->
+</script>
+</head>
+
+<body onload="FP_preloadImgs(/*url*/'button13.jpg', /*url*/'button14.jpg', /*url*/'button16.jpg', /*url*/'button17.jpg', /*url*/'button1C.jpg', /*url*/'button1D.jpg', /*url*/'button20.jpg', /*url*/'button21.jpg', /*url*/'button2.jpg', /*url*/'button3.jpg', /*url*/'button11.jpg', /*url*/'button18.jpg', /*url*/'button19.jpg', /*url*/'button22.jpg', /*url*/'button4.jpg', /*url*/'button5.jpg', /*url*/'button6.jpg', /*url*/'button7.jpg', /*url*/'button30.jpg', /*url*/'button1A.jpg', /*url*/'button32.jpg', /*url*/'button33.jpg', /*url*/'button29.jpg', /*url*/'button41.jpg', /*url*/'buttonB2.jpg', /*url*/'buttonC2.jpg')">
+
+<p align="center"><a href="index.htm">
+<img border="0" src="logo.jpg" width="970" height="182"></a></p>
+<p align="center"><a href="http://www.ocu.edu.tw/bin/home.php">
+<img border="0" id="img1" src="button12.jpg" height="60" width="300" alt="僑 光 科 技 大 學" onmouseover="FP_swapImg(1,0,/*id*/'img1',/*url*/'button13.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img1',/*url*/'button12.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img1',/*url*/'button14.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img1',/*url*/'button13.jpg')" fp-style="fp-btn: Embossed Capsule 1; fp-font: 微軟正黑體; fp-font-style: Bold; fp-font-size: 16" fp-title="僑 光 科 技 大 學"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://caid.ocu.edu.tw/index.php?Lang=zh-tw">
+<img border="0" id="img8" src="button45.jpg" height="60" width="300" alt="機械與電腦輔助工程系" fp-style="fp-btn: Embossed Capsule 1; fp-font: 微軟正黑體; fp-font-style: Bold; fp-font-size: 14" fp-title="機械與電腦輔助工程系" onmouseover="FP_swapImg(1,0,/*id*/'img8',/*url*/'button43.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img8',/*url*/'button45.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img8',/*url*/'button44.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img8',/*url*/'button43.jpg')"></a></p>
+<table border="1" width="100%" height="589">
+	<tr>
+		<td width="201" align="center" valign="top"><a href="index.htm">
+		<img border="0" id="img4" src="button1F.jpg" height="35" width="175" alt="首        頁" fp-style="fp-btn: Embossed Capsule 1; fp-font: 微軟正黑體; fp-font-style: Bold; fp-font-size: 14" fp-title="首        頁" onmouseover="FP_swapImg(1,0,/*id*/'img4',/*url*/'button20.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img4',/*url*/'button1F.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img4',/*url*/'button21.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img4',/*url*/'button20.jpg')"></a><p>
+		<a href="teacher.htm">
+		<img border="0" id="img3" src="button1B.jpg" height="35" width="175" alt="教師簡歷" onmouseover="FP_swapImg(1,0,/*id*/'img3',/*url*/'button1C.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img3',/*url*/'button1B.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img3',/*url*/'button1D.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img3',/*url*/'button1C.jpg')" fp-style="fp-btn: Embossed Capsule 1; fp-font: 微軟正黑體; fp-font-style: Bold; fp-font-size: 14" fp-title="教師簡歷"></a><p>
+		<a href="solidworks.htm">
+		<img border="0" id="img5" src="button1.jpg" height="35" width="175" alt="SolidWorks教學" fp-style="fp-btn: Embossed Capsule 1; fp-font: 微軟正黑體; fp-font-style: Bold; fp-font-size: 13" fp-title="SolidWorks教學" onmouseover="FP_swapImg(1,0,/*id*/'img5',/*url*/'button2.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img5',/*url*/'button1.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img5',/*url*/'button3.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img5',/*url*/'button2.jpg')"></a><p>
+		<a href="creo.htm">
+		<img border="0" id="img6" src="button10.jpg" height="35" width="175" alt="creo(Pro/E)教學" fp-style="fp-btn: Embossed Capsule 1; fp-font: 微軟正黑體; fp-font-style: Bold; fp-font-size: 13" fp-title="creo(Pro/E)教學" onmouseover="FP_swapImg(1,0,/*id*/'img6',/*url*/'button11.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img6',/*url*/'button10.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img6',/*url*/'button18.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img6',/*url*/'button11.jpg')"></a><p>
+		<a href="autocad.htm">
+		<img border="0" id="img7" src="button23.jpg" height="35" width="175" alt="AutoCAD 教學" fp-style="fp-btn: Embossed Capsule 1; fp-font: 微軟正黑體; fp-font-style: Bold; fp-font-size: 14" fp-title="AutoCAD 教學" onmouseover="FP_swapImg(1,0,/*id*/'img7',/*url*/'button19.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img7',/*url*/'button23.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img7',/*url*/'button22.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img7',/*url*/'button19.jpg')"></a></td>
+		<td valign="top">　<p align="center">&nbsp;&nbsp;&nbsp;
+		<a href="#SolidWorks設計入門經典教材">
+		<img border="0" id="img8" src="button26.jpg" height="60" width="300" alt="SolidWorks設計入門經典教材" onmouseover="FP_swapImg(1,0,/*id*/'img8',/*url*/'button4.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img8',/*url*/'button26.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img8',/*url*/'button5.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img8',/*url*/'button4.jpg')" fp-style="fp-btn: Glow Rectangle 3; fp-font: 微軟正黑體; fp-font-style: Bold; fp-font-size: 12; fp-font-color-normal: #0000FF; fp-font-color-hover: #0000FF; fp-font-color-press: #0000FF" fp-title="SolidWorks設計入門經典教材"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="#SolidWorks一般教學">
+		<img border="0" id="img9" src="button27.jpg" height="60" width="300" alt="SolidWorks一般教學" onmouseover="FP_swapImg(1,0,/*id*/'img9',/*url*/'button6.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img9',/*url*/'button27.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img9',/*url*/'button7.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img9',/*url*/'button6.jpg')" fp-style="fp-btn: Glow Rectangle 3; fp-font: 微軟正黑體; fp-font-style: Bold; fp-font-size: 12; fp-font-color-normal: #0000FF; fp-font-color-hover: #0000FF; fp-font-color-press: #0000FF" fp-title="SolidWorks一般教學"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="#SolidWorks鈑金設計">
+		<img border="0" id="img10" src="button31.jpg" height="60" width="300" alt="SolidWorks鈑金設計" fp-style="fp-btn: Glow Rectangle 3; fp-font: 微軟正黑體; fp-font-style: Bold; fp-font-size: 12; fp-font-color-normal: #0000FF; fp-font-color-hover: #0000FF; fp-font-color-press: #0000FF" fp-title="SolidWorks鈑金設計" onmouseover="FP_swapImg(1,0,/*id*/'img10',/*url*/'button30.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img10',/*url*/'button31.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img10',/*url*/'button1A.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img10',/*url*/'button30.jpg')"></a></p>
+		<p align="center">&nbsp;&nbsp;&nbsp; <a href="#SolidWorks模具設計">
+		<img border="0" id="img11" src="button34.jpg" height="60" width="300" alt="SolidWorks模具設計" fp-style="fp-btn: Glow Rectangle 3; fp-font: 微軟正黑體; fp-font-style: Bold; fp-font-size: 12; fp-font-color-normal: #0000FF; fp-font-color-hover: #0000FF; fp-font-color-press: #0000FF" fp-title="SolidWorks模具設計" onmouseover="FP_swapImg(1,0,/*id*/'img11',/*url*/'button32.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img11',/*url*/'button34.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img11',/*url*/'button33.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img11',/*url*/'button32.jpg')"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="#進階-機械結合與動態模擬">
+		<img border="0" id="img14" src="button42.jpg" height="60" width="300" alt="進階-機械結合與動態模擬" fp-style="fp-btn: Glow Rectangle 3; fp-font: 微軟正黑體; fp-font-style: Bold; fp-font-size: 12; fp-font-color-normal: #0000FF; fp-font-color-hover: #0000FF; fp-font-color-press: #0000FF" fp-title="進階-機械結合與動態模擬" onmouseover="FP_swapImg(1,0,/*id*/'img14',/*url*/'button29.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img14',/*url*/'button42.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img14',/*url*/'button41.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img14',/*url*/'button29.jpg')"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="#TOP_DOWN_DESIGN">
+		<img border="0" id="img15" src="buttonA2.jpg" height="60" width="300" alt="TOP DOWN DESIGN" onmouseover="FP_swapImg(1,0,/*id*/'img15',/*url*/'buttonB2.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img15',/*url*/'buttonA2.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img15',/*url*/'buttonC2.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img15',/*url*/'buttonB2.jpg')" fp-style="fp-btn: Glow Rectangle 3; fp-font: 微軟正黑體; fp-font-style: Bold; fp-font-size: 12; fp-font-color-normal: #0000FF; fp-font-color-hover: #0000FF; fp-font-color-press: #0000FF" fp-title="TOP DOWN DESIGN"></a></p>
+		<p align="center">　</p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;
+		</font><b><font size="5" face="微軟正黑體" color="#FFFFFF">
+		<span style="background-color: #FF00FF"><a name="SolidWorks設計入門經典教材">
+		SolidWorks設計入門經典教材</a></span></font></b></p>
+		<p align="left"><font size="5" face="微軟正黑體">&nbsp;&nbsp;&nbsp;&nbsp; 
+		Chapter 2 草圖繪製</font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=rjCQ-71-fD4&t=4s&list=PL-_BHhFxZDh9k3p1gNpA09hblCzRqXpbB&index=124">
+		練習2-2-草圖1-4.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=F2LTQ6OzmFM&list=PL-_BHhFxZDh9k3p1gNpA09hblCzRqXpbB&index=123&t=4s">
+		練習2-2-草圖5.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=39ylHuB1uzI&index=122&list=PL-_BHhFxZDh9k3p1gNpA09hblCzRqXpbB&t=4s">
+		練習2-3.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=S8Kq4VpY750&index=121&t=6s&list=PL-_BHhFxZDh9k3p1gNpA09hblCzRqXpbB">
+		練習2-4.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=stNm6TYttiY&index=120&list=PL-_BHhFxZDh9k3p1gNpA09hblCzRqXpbB&t=9s">
+		幾何限制條件1.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=LCS8BbSiXpA&list=PL-_BHhFxZDh9k3p1gNpA09hblCzRqXpbB&index=119&t=118s">
+		幾何限制條件2.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=Ng1Dy_P3Enw&t=6s&index=118&list=PL-_BHhFxZDh9k3p1gNpA09hblCzRqXpbB">
+		幾何限制條件3-合併-相互對稱.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=DtoDba4AFCw&list=PL-_BHhFxZDh9k3p1gNpA09hblCzRqXpbB&index=117&t=19s">
+		幾何限制條件3-貫穿.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=uc8MCnf1b3c&t=5s&list=PL-_BHhFxZDh9k3p1gNpA09hblCzRqXpbB&index=111">
+		偏移圖元.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=qYSZZ_szFOY&t=7s&list=PL-_BHhFxZDh9k3p1gNpA09hblCzRqXpbB&index=110">
+		練習2-5.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=JkoPY3zgags&t=21s&list=PL-_BHhFxZDh9k3p1gNpA09hblCzRqXpbB&index=115">
+		參考圖元.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=ZoRPOVNeI9Y&index=109&list=PL-_BHhFxZDh9k3p1gNpA09hblCzRqXpbB&t=3s">
+		練習2-6.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=pcPT8b7Rdc4&t=6s&list=PL-_BHhFxZDh9k3p1gNpA09hblCzRqXpbB&index=113">
+		練習2-7.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=bcBwjyDxqSo&index=108&list=PL-_BHhFxZDh9k3p1gNpA09hblCzRqXpbB&t=12s">
+		練習2-8.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=NVKudRpWLcA&index=105&list=PL-_BHhFxZDh9k3p1gNpA09hblCzRqXpbB&t=7s">
+		練習2-9.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=yo8XTrFgr2M&index=104&list=PL-_BHhFxZDh9k3p1gNpA09hblCzRqXpbB&t=5s">
+		練習2-10.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=RngMiQ9oa8A&t=6s&list=PL-_BHhFxZDh9k3p1gNpA09hblCzRqXpbB&index=107">
+		練習2-11.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=wZzeUSQO-pM&list=PL-_BHhFxZDh9k3p1gNpA09hblCzRqXpbB&index=114&t=5s">
+		練習2-12.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=67TQI8dUJ0M&list=PL-_BHhFxZDh9k3p1gNpA09hblCzRqXpbB&index=106&t=6s">
+		練習2-13-16.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=GaXSnrFZSqA&list=PL-_BHhFxZDh9k3p1gNpA09hblCzRqXpbB&index=112&t=5s">
+		練習2-17-19.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=YuNxdrPM5_U&index=116&list=PL-_BHhFxZDh9k3p1gNpA09hblCzRqXpbB&t=10s">
+		練習2-20.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=kPPJ4xgFk8U&index=125&list=PL-_BHhFxZDh9k3p1gNpA09hblCzRqXpbB&t=5s">
+		作業2-7-2.avi</a></font></p>
+		<p align="left"><font size="5" face="微軟正黑體">&nbsp;&nbsp;&nbsp;&nbsp; 
+		Chapter 3 </font><span style="font-family: 微軟正黑體; color: #333333">
+		<font size="5">伸長特徵</font></span></p>
+		<p align="left"><font face="微軟正黑體" size="5" color="#333333">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=0OtYK2dangc&index=103&t=13s&list=PL-_BHhFxZDh9k3p1gNpA09hblCzRqXpbB">
+		伸長填料基材.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=9INlbFhMN5Y&index=102&list=PL-_BHhFxZDh9k3p1gNpA09hblCzRqXpbB&t=10s">
+		練習3-1.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=cBmZjnj4Q6g&t=7s&list=PL-_BHhFxZDh9k3p1gNpA09hblCzRqXpbB&index=101">
+		練習3-2.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=Qm8rDV82AFc&t=3s&list=PL-_BHhFxZDh9k3p1gNpA09hblCzRqXpbB&index=100">
+		伸長薄件特徵.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=s0-f0fvXxIU&t=10s&list=PL-_BHhFxZDh9k3p1gNpA09hblCzRqXpbB&index=99">
+		練習3-3.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=OADcxeODKKw&index=128&list=PL-_BHhFxZDh9k3p1gNpA09hblCzRqXpbB">
+		3-5作業-1.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=nGYunJ6YsVk&index=129&t=13s&list=PL-_BHhFxZDh9k3p1gNpA09hblCzRqXpbB">
+		3-5作業-2.avi</a></font></p>
+		<p align="left"><font size="5" face="微軟正黑體">&nbsp;&nbsp;&nbsp;&nbsp; 
+		Chapter 4 </font>
+		<span style="font-size: 18.0pt; font-family: 微軟正黑體,sans-serif; color: #333333">
+		旋轉特徵</span><font size="5" face="微軟正黑體">&nbsp; </font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=LMEel1J923Q&t=7s&list=PL-_BHhFxZDh9k3p1gNpA09hblCzRqXpbB&index=98">
+		旋轉特徵簡介.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=OeohMZPHHgk&t=4s&list=PL-_BHhFxZDh9k3p1gNpA09hblCzRqXpbB&index=97">
+		練習4-1.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=IYIOSEFUh_A&t=6s&list=PL-_BHhFxZDh9k3p1gNpA09hblCzRqXpbB&index=96">
+		練習4-2.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=OTSj4zxNDOc&t=6s&index=127&list=PL-_BHhFxZDh9k3p1gNpA09hblCzRqXpbB">
+		作業4-4-1.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=5iRhJtGI4do&t=5s&list=PL-_BHhFxZDh9k3p1gNpA09hblCzRqXpbB&index=126">
+		作業4-4-2.avi</a></font></p>
+		<p align="left"><font size="5" face="微軟正黑體">&nbsp;&nbsp;&nbsp;&nbsp; 
+		Chapter 5 </font>
+		<span style="font-size: 18.0pt; font-family: 微軟正黑體,sans-serif; color: #333333">
+		參考幾何特徵</span></p>
+		<p align="left"><font face="微軟正黑體,sans-serif" size="5" color="#333333">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=UxtTq-3GIjs&t=17s&list=PL-_BHhFxZDh9k3p1gNpA09hblCzRqXpbB&index=95">
+		練習5-1.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體,sans-serif" size="5" color="#333333">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=7-ljTqW8Ll4&t=7s&list=PL-_BHhFxZDh9k3p1gNpA09hblCzRqXpbB&index=94">
+		練習5-2.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體,sans-serif" size="5" color="#333333">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=4mweOMQZgn0&list=PL-_BHhFxZDh9k3p1gNpA09hblCzRqXpbB&index=93&t=4s">
+		練習5-3.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體,sans-serif" size="5" color="#333333">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=C6ZvTErfCcU&t=4s&list=PL-_BHhFxZDh9k3p1gNpA09hblCzRqXpbB&index=92">
+		練習5-4.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體,sans-serif" size="5" color="#333333">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=vEqIfKFLVEo&t=3s&list=PL-_BHhFxZDh9k3p1gNpA09hblCzRqXpbB&index=91">
+		練習5-5.avi</a></font></p>
+		<p align="left"><font size="5" face="微軟正黑體">&nbsp;&nbsp;&nbsp;&nbsp; 
+		Chapter 6 </font>
+		<span style="font-size: 18.0pt; font-family: 微軟正黑體,sans-serif; color: #333333">
+		物質特性計算與數學關係式的應用</span></p>
+		<p align="left"><font face="微軟正黑體,sans-serif" size="5" color="#333333">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=hP99Psw_iok&t=17s&list=PL-_BHhFxZDh9k3p1gNpA09hblCzRqXpbB&index=90">
+		練習6-1.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體,sans-serif" size="5" color="#333333">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=_ZdznlIYoVo&t=8s&list=PL-_BHhFxZDh9k3p1gNpA09hblCzRqXpbB&index=89">
+		練習6-2.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體,sans-serif" size="5" color="#333333">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=n3GMruN8OYo&t=6s&list=PL-_BHhFxZDh9k3p1gNpA09hblCzRqXpbB&index=88">
+		練習6-3.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體,sans-serif" size="5" color="#333333">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=dliiVpblumI&t=4s&list=PL-_BHhFxZDh9k3p1gNpA09hblCzRqXpbB&index=87">
+		練習6-4.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體,sans-serif" size="5" color="#333333">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=dAj7XpseZXE&t=3s&list=PL-_BHhFxZDh9k3p1gNpA09hblCzRqXpbB&index=86">
+		練習6-5.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體,sans-serif" size="5" color="#333333">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=bRSPHPI4dHU&t=4s&list=PL-_BHhFxZDh9k3p1gNpA09hblCzRqXpbB&index=85">
+		練習6-6.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體,sans-serif" size="5" color="#333333">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=VmMnFLjMpaw&t=5s&list=PL-_BHhFxZDh9k3p1gNpA09hblCzRqXpbB&index=84">
+		6-5作業.avi</a></font></p>
+		<p align="left"><font size="5" face="微軟正黑體">&nbsp;&nbsp;&nbsp;&nbsp; 
+		Chapter 7 </font>
+		<span style="font-size: 18.0pt; font-family: 微軟正黑體,sans-serif; color: #333333">
+		工程特徵與特徵複製</span></p>
+		<p align="left"><font face="微軟正黑體,sans-serif" size="5" color="#333333">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=5Omy_dXFEqY&t=15s&list=PL-_BHhFxZDh9k3p1gNpA09hblCzRqXpbB&index=83">
+		練習7-1.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體,sans-serif" size="5" color="#333333">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=NSgw3gWmALk&t=9s&list=PL-_BHhFxZDh9k3p1gNpA09hblCzRqXpbB&index=82">
+		練習7-2.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體,sans-serif" size="5" color="#333333">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=COlFb9YXKl0&t=8s&list=PL-_BHhFxZDh9k3p1gNpA09hblCzRqXpbB&index=81">
+		練習7-3_7-4.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體,sans-serif" size="5" color="#333333">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=nFGZJZqhiQU&t=4s&list=PL-_BHhFxZDh9k3p1gNpA09hblCzRqXpbB&index=80">
+		練習7-5.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體,sans-serif" size="5" color="#333333">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=_NEGcPE-Q7Y&t=6s&list=PL-_BHhFxZDh9k3p1gNpA09hblCzRqXpbB&index=79">
+		練習7-6_7-9.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體,sans-serif" size="5" color="#333333">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=Cbnt7JvReYM&t=8s&list=PL-_BHhFxZDh9k3p1gNpA09hblCzRqXpbB&index=78">
+		練習7-10.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體,sans-serif" size="5" color="#333333">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=8b_8PkWgrLY&t=7s&list=PL-_BHhFxZDh9k3p1gNpA09hblCzRqXpbB&index=77">
+		練習7-11.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體,sans-serif" size="5" color="#333333">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=bXRh03e_p4E&t=6s&list=PL-_BHhFxZDh9k3p1gNpA09hblCzRqXpbB&index=76">
+		練習7-12.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體,sans-serif" size="5" color="#333333">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=WupLvYCwCtk&t=11s&list=PL-_BHhFxZDh9k3p1gNpA09hblCzRqXpbB&index=75">
+		練習7-13.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體,sans-serif" size="5" color="#333333">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=zpaqf0_O72M&t=15s&list=PL-_BHhFxZDh9k3p1gNpA09hblCzRqXpbB&index=74">
+		練習7-14_7-15.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體,sans-serif" size="5" color="#333333">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=12Cu41SWKIM&t=64s&list=PL-_BHhFxZDh9k3p1gNpA09hblCzRqXpbB&index=73">
+		練習7-16.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體,sans-serif" size="5" color="#333333">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=OiNVvZL5XZ4&t=12s&list=PL-_BHhFxZDh9k3p1gNpA09hblCzRqXpbB&index=72">
+		練習7-17.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體,sans-serif" size="5" color="#333333">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=llSoiM5ogvs&t=9s&list=PL-_BHhFxZDh9k3p1gNpA09hblCzRqXpbB&index=71">
+		練習7-18.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體,sans-serif" size="5" color="#333333">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=YDaOIsbb9CA&index=70&t=8s&list=PL-_BHhFxZDh9k3p1gNpA09hblCzRqXpbB">
+		練習7-19.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體,sans-serif" size="5" color="#333333">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=VybyvOc5cQE&t=9s&list=PL-_BHhFxZDh9k3p1gNpA09hblCzRqXpbB&index=69">
+		練習7-20.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體,sans-serif" size="5" color="#333333">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=uPQVLfpAIaE&t=11s&list=PL-_BHhFxZDh9k3p1gNpA09hblCzRqXpbB&index=68">
+		練習7-21.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體,sans-serif" size="5" color="#333333">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=pLHIQdFnzew&t=15s&list=PL-_BHhFxZDh9k3p1gNpA09hblCzRqXpbB&index=67">
+		練習7-22.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體,sans-serif" size="5" color="#333333">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=sLmgtkgWZhI&t=7s&list=PL-_BHhFxZDh9k3p1gNpA09hblCzRqXpbB&index=66">
+		練習7-23.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體,sans-serif" size="5" color="#333333">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=WYakd-rb33g&t=7s&list=PL-_BHhFxZDh9k3p1gNpA09hblCzRqXpbB&index=65">
+		練習7-24.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體,sans-serif" size="5" color="#333333">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=GS-66IjgOu4&t=7s&list=PL-_BHhFxZDh9k3p1gNpA09hblCzRqXpbB&index=64">
+		練習7-25.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體,sans-serif" size="5" color="#333333">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=ZTnU7KDbIoU&t=6s&list=PL-_BHhFxZDh9k3p1gNpA09hblCzRqXpbB&index=63">
+		練習7-26.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體,sans-serif" size="5" color="#333333">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=8ehY4KGEg7E&t=5s&list=PL-_BHhFxZDh9k3p1gNpA09hblCzRqXpbB&index=62">
+		練習7-27.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體,sans-serif" size="5" color="#333333">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=kaywgh5wVIM&t=23s&list=PL-_BHhFxZDh9k3p1gNpA09hblCzRqXpbB&index=61">
+		7-12作業-2.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=dsYxg9zVY0o&t=30s&list=PL-_BHhFxZDh9k3p1gNpA09hblCzRqXpbB&index=60">
+		7-12作業-3.avi</a></font></p>
+		<p align="left"><font size="5" face="微軟正黑體">&nbsp;&nbsp;&nbsp;&nbsp; 
+		Chapter 8 </font>
+		<span style="font-size: 18.0pt; font-family: 微軟正黑體,sans-serif; color: #333333">
+		模型組態與設計表格</span></p>
+		<p align="left"><font face="微軟正黑體,sans-serif" size="5" color="#333333">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=d9eTBdU79yA&t=28s&list=PL-_BHhFxZDh9k3p1gNpA09hblCzRqXpbB&index=59">
+		練習8-1.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體,sans-serif" size="5" color="#333333">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=QfXhYEhcs5g&t=11s&list=PL-_BHhFxZDh9k3p1gNpA09hblCzRqXpbB&index=58">
+		練習8-2.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體,sans-serif" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=IFNIwJM0oe8&t=15s&list=PL-_BHhFxZDh9k3p1gNpA09hblCzRqXpbB&index=57">
+		8-4作業-1.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體,sans-serif" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=B5ae5kd2Ue4&t=64s&list=PL-_BHhFxZDh9k3p1gNpA09hblCzRqXpbB&index=56">
+		8-4作業-2.avi</a></font></p>
+		<p align="left"><font size="5" face="微軟正黑體">&nbsp;&nbsp;&nbsp;&nbsp; 
+		Chapter 9 </font>
+		<span style="font-size: 18.0pt; font-family: 微軟正黑體,sans-serif; color: #333333">
+		曲線特徵與基礎掃出</span></p>
+		<p align="left"><font face="微軟正黑體,sans-serif" size="5" color="#333333">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=j2mg0M1xZto&list=PL-_BHhFxZDh9k3p1gNpA09hblCzRqXpbB&index=55">
+		練習9-1.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體,sans-serif" size="5" color="#333333">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=4utkg-1aFXA&t=13s&list=PL-_BHhFxZDh9k3p1gNpA09hblCzRqXpbB&index=54">
+		練習9-2.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體,sans-serif" size="5" color="#333333">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=8YRRoCmxUi8&t=9s&list=PL-_BHhFxZDh9k3p1gNpA09hblCzRqXpbB&index=53">
+		練習9-3.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體,sans-serif" size="5" color="#333333">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=-OJFCPu3k1Q&t=11s&list=PL-_BHhFxZDh9k3p1gNpA09hblCzRqXpbB&index=52">
+		練習9-4.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體,sans-serif" size="5" color="#333333">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=x2fCGcoGhU4&t=10s&list=PL-_BHhFxZDh9k3p1gNpA09hblCzRqXpbB&index=51">練習9-5.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體,sans-serif" size="5" color="#333333">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=VckeDNfDq-g&t=12s&list=PL-_BHhFxZDh9k3p1gNpA09hblCzRqXpbB&index=50">
+		練習9-6.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體,sans-serif" size="5" color="#333333">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=Jk1tRZFoY_8&t=17s&list=PL-_BHhFxZDh9k3p1gNpA09hblCzRqXpbB&index=49">
+		練習9-7.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體,sans-serif" size="5" color="#333333">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=gz6r-xE2usg&t=104s&list=PL-_BHhFxZDh9k3p1gNpA09hblCzRqXpbB&index=48">
+		練習9-8.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體,sans-serif" size="5" color="#333333">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=cJKDXtWpAGY&t=13s&list=PL-_BHhFxZDh9k3p1gNpA09hblCzRqXpbB&index=47">
+		練習9-9.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體,sans-serif" size="5" color="#333333">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=QfztgKDPaME&t=7s&list=PL-_BHhFxZDh9k3p1gNpA09hblCzRqXpbB&index=46">
+		練習9-10.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體,sans-serif" size="5" color="#333333">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=FROMiYi8uJI&t=12s&list=PL-_BHhFxZDh9k3p1gNpA09hblCzRqXpbB&index=45">
+		練習9-11.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體,sans-serif" size="5" color="#333333">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=T72iUv1eCjY&t=15s&list=PL-_BHhFxZDh9k3p1gNpA09hblCzRqXpbB&index=44">
+		9-9作業.avi</a></font></p>
+		<p align="left"><font size="5" face="微軟正黑體">&nbsp;&nbsp;&nbsp;&nbsp; 
+		Chapter 10 </font>
+		<span style="font-size: 18.0pt; font-family: 微軟正黑體,sans-serif; color: #333333">
+		基本曲面與曲面編輯</span></p>
+		<p align="left"><font face="微軟正黑體,sans-serif" size="5" color="#333333">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=jy3V2a2F6Bc&list=PL-_BHhFxZDh9k3p1gNpA09hblCzRqXpbB&index=43">
+		練習10-1.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體,sans-serif" size="5" color="#333333">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=zyjZwI5iGpw&t=11s&list=PL-_BHhFxZDh9k3p1gNpA09hblCzRqXpbB&index=42">
+		練習10-2.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體,sans-serif" size="5" color="#333333">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=A5MZuvN93_0&t=9s&list=PL-_BHhFxZDh9k3p1gNpA09hblCzRqXpbB&index=41">
+		練習10-3.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體,sans-serif" size="5" color="#333333">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=0-MagnNe6FI&t=7s&list=PL-_BHhFxZDh9k3p1gNpA09hblCzRqXpbB&index=40">
+		練習10-4.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體,sans-serif" size="5" color="#333333">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=GP-nCMBGRBQ&t=9s&list=PL-_BHhFxZDh9k3p1gNpA09hblCzRqXpbB&index=39">
+		練習10-5.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體,sans-serif" size="5" color="#333333">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=mQwFCSFba1o&t=5s&list=PL-_BHhFxZDh9k3p1gNpA09hblCzRqXpbB&index=38">
+		練習10-6.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體,sans-serif" size="5" color="#333333">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=dV1-4SUng3E&t=10s&list=PL-_BHhFxZDh9k3p1gNpA09hblCzRqXpbB&index=37">
+		練習10-7.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體,sans-serif" size="5" color="#333333">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=mEE4iRHGxxY&t=10s&list=PL-_BHhFxZDh9k3p1gNpA09hblCzRqXpbB&index=36">
+		練習10-8.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體,sans-serif" size="5" color="#333333">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=_ViHQBag_V4&t=32s&list=PL-_BHhFxZDh9k3p1gNpA09hblCzRqXpbB&index=35">
+		練習10-9.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體,sans-serif" size="5" color="#333333">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=KiZdF2t3eww&t=17s&list=PL-_BHhFxZDh9k3p1gNpA09hblCzRqXpbB&index=33">
+		練習10-10.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體,sans-serif" size="5" color="#333333">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=xfN8PkJf3uc&t=21s&list=PL-_BHhFxZDh9k3p1gNpA09hblCzRqXpbB&index=34">
+		練習10-11.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體,sans-serif" size="5" color="#333333">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=12zhbRwTMIM&t=53s&list=PL-_BHhFxZDh9k3p1gNpA09hblCzRqXpbB&index=32">
+		練習10-12.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體,sans-serif" size="5" color="#333333">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=NRaoaa8QglI&t=9s&list=PL-_BHhFxZDh9k3p1gNpA09hblCzRqXpbB&index=31">
+		練習10-13.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體,sans-serif" size="5" color="#333333">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=aUi-PycaPsM&t=18s&list=PL-_BHhFxZDh9k3p1gNpA09hblCzRqXpbB&index=30">
+		練習10-14.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體,sans-serif" size="5" color="#333333">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=wXupp4NKPvY&t=14s&list=PL-_BHhFxZDh9k3p1gNpA09hblCzRqXpbB&index=29">
+		練習10-15.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體,sans-serif" size="5" color="#333333">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=-M0L7jETTqA&t=7s&list=PL-_BHhFxZDh9k3p1gNpA09hblCzRqXpbB&index=28">
+		練習10-16.avi</a></font></p>
+		<p align="left"><font size="5" face="微軟正黑體">&nbsp;&nbsp;&nbsp;&nbsp; 
+		Chapter 11 </font>
+		<span style="font-size: 18.0pt; font-family: 微軟正黑體,sans-serif; color: #333333">
+		掃出實體與曲面特徵</span></p>
+		<p align="left"><font face="微軟正黑體,sans-serif" size="5" color="#333333">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=8Fg66Bv1fmc&t=12s&list=PL-_BHhFxZDh9k3p1gNpA09hblCzRqXpbB&index=27">
+		練習11-1.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體,sans-serif" size="5" color="#333333">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=mcT6Gdw47jY&t=9s&list=PL-_BHhFxZDh9k3p1gNpA09hblCzRqXpbB&index=26">
+		練習11-2.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體,sans-serif" size="5" color="#333333">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=nLWbWvf5ET4&t=46s&list=PL-_BHhFxZDh9k3p1gNpA09hblCzRqXpbB&index=25">
+		練習11-3-1.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體,sans-serif" size="5" color="#333333">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=bnKIEIqn6Fo&t=13s&list=PL-_BHhFxZDh9k3p1gNpA09hblCzRqXpbB&index=24">
+		練習11-3-2.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體,sans-serif" size="5" color="#333333">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=-I-RDUHqCIY&t=10s&list=PL-_BHhFxZDh9k3p1gNpA09hblCzRqXpbB&index=23">
+		練習11-3-3.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體,sans-serif" size="5" color="#333333">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=irQY0QJ7SGg&t=5s&list=PL-_BHhFxZDh9k3p1gNpA09hblCzRqXpbB&index=22">
+		練習11-3-4.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體,sans-serif" size="5" color="#333333">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=VhB96_htWrA&t=11s&list=PL-_BHhFxZDh9k3p1gNpA09hblCzRqXpbB&index=21">
+		練習11-3-5.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體,sans-serif" size="5" color="#333333">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=ty74R_SybeM&t=9s&list=PL-_BHhFxZDh9k3p1gNpA09hblCzRqXpbB&index=20">
+		11-4作業.avi</a></font></p>
+		<p align="left"><font size="5" face="微軟正黑體">&nbsp;&nbsp;&nbsp;&nbsp; 
+		Chapter 12 </font>
+		<span style="font-size: 18.0pt; font-family: 微軟正黑體,sans-serif; color: #333333">
+		疊層拉伸與邊界特徵</span></p>
+		<p align="left"><font face="微軟正黑體,sans-serif" size="5" color="#333333">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=3PPRY3M5lIs&t=10s&list=PL-_BHhFxZDh9k3p1gNpA09hblCzRqXpbB&index=19">
+		練習12-1.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體,sans-serif" size="5" color="#333333">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=vfAUxemnxXA&t=5s&list=PL-_BHhFxZDh9k3p1gNpA09hblCzRqXpbB&index=18">
+		練習12-2.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體,sans-serif" size="5" color="#333333">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=T9Juyvv6GEg&t=8s&list=PL-_BHhFxZDh9k3p1gNpA09hblCzRqXpbB&index=17">
+		練習12-3.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體,sans-serif" size="5" color="#333333">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=YKS_NT2hMDY&t=8s&list=PL-_BHhFxZDh9k3p1gNpA09hblCzRqXpbB&index=16">
+		練習12-4.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體,sans-serif" size="5" color="#333333">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=Rw0Fu4KqZ4g&t=6s&list=PL-_BHhFxZDh9k3p1gNpA09hblCzRqXpbB&index=15">
+		練習12-5.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體,sans-serif" size="5" color="#333333">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=T6nxWh2PdJ0&t=9s&list=PL-_BHhFxZDh9k3p1gNpA09hblCzRqXpbB&index=14">
+		練習12-6-1.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體,sans-serif" size="5" color="#333333">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=YFYbNDYEkUA&t=5s&list=PL-_BHhFxZDh9k3p1gNpA09hblCzRqXpbB&index=13">
+		練習12-6-2.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體,sans-serif" size="5" color="#333333">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=I10TK5GtuUM&list=PL-_BHhFxZDh9k3p1gNpA09hblCzRqXpbB&index=12">
+		練習12-6-3.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體,sans-serif" size="5" color="#333333">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=RyB7DxGPqdc&t=4s&list=PL-_BHhFxZDh9k3p1gNpA09hblCzRqXpbB&index=11">
+		練習12-6-4.avi</a></font></p>
+		<p align="left"><font size="5" face="微軟正黑體">&nbsp;&nbsp;&nbsp;&nbsp; 
+		Chapter 14 </font>
+		<span style="font-size: 18.0pt; font-family: 微軟正黑體,sans-serif; color: #333333">
+		工程圖製作</span></p>
+		<p align="left"><font size="5" face="微軟正黑體">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=PjjZRDyC0tw&t=6s&list=PL-_BHhFxZDh9k3p1gNpA09hblCzRqXpbB&index=10">
+		圖頁格式製作-1.avi</a></font></p>
+		<p align="left"><font size="5" face="微軟正黑體">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=Pz0oKM8TgFQ&t=20s&list=PL-_BHhFxZDh9k3p1gNpA09hblCzRqXpbB&index=7">
+		圖頁格式製作-2.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=kvds8PQboWc&t=11s&list=PL-_BHhFxZDh9k3p1gNpA09hblCzRqXpbB&index=9">
+		開啟工程圖, 圖頁之屬性, 新增, 刪除及切換.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=gz12DXSRBFM&t=51s&list=PL-_BHhFxZDh9k3p1gNpA09hblCzRqXpbB&index=6">
+		標準視圖, 立體視圖及投影視圖的建立.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=GHaspC05yec&t=8s&list=PL-_BHhFxZDh9k3p1gNpA09hblCzRqXpbB&index=8">
+		視圖調整與父子關係.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=_ZjxdIpTtmM&t=26s&list=PL-_BHhFxZDh9k3p1gNpA09hblCzRqXpbB&index=5">
+		輔助視圖與剖面視圖.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=vXtudJ-nG-Y&t=18s&list=PL-_BHhFxZDh9k3p1gNpA09hblCzRqXpbB&index=4">
+		斷裂, 裁剪, 細部放大及區域深度剖視圖.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=orcUuah_ig4&t=21s&list=PL-_BHhFxZDh9k3p1gNpA09hblCzRqXpbB&index=3">
+		工程圖樣板檔製作.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=Yj9FO9skCJg&t=24s&list=PL-_BHhFxZDh9k3p1gNpA09hblCzRqXpbB&index=2">
+		尺寸標註.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=LbT4xrHxgVY&t=69s&list=PL-_BHhFxZDh9k3p1gNpA09hblCzRqXpbB&index=1">
+		註解與中心線.avi</a></font></p>
+		<p align="left"><b><font face="微軟正黑體" size="5" color="#FFFFFF">&nbsp;&nbsp;&nbsp;&nbsp;
+		<span style="background-color: #FF00FF"><a name="SolidWorks一般教學">
+		SolidWorks一般教學</a></span></font></b></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=ipqF_Cxj3D8&list=PL-_BHhFxZDh-3vvuW4eQUV2Iyy8Hxqbw_&index=114">
+		skt01-1.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=26XDbTyXQAY&list=PL-_BHhFxZDh-3vvuW4eQUV2Iyy8Hxqbw_&index=113">
+		skt01-2.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=uFckceorkvI&list=PL-_BHhFxZDh-3vvuW4eQUV2Iyy8Hxqbw_&index=112">
+		skt01-3.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=uAf0msikOuM&index=111&list=PL-_BHhFxZDh-3vvuW4eQUV2Iyy8Hxqbw_">
+		skt01-4.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=NlzI6rj5GBA&index=110&list=PL-_BHhFxZDh-3vvuW4eQUV2Iyy8Hxqbw_">
+		skt01-5.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=Ye2qMI_XcmA&list=PL-_BHhFxZDh-3vvuW4eQUV2Iyy8Hxqbw_&index=109">
+		skt01-6.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=ygIz250oa2Q&list=PL-_BHhFxZDh-3vvuW4eQUV2Iyy8Hxqbw_&index=108">
+		skt02-4.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=gTzv7wDOKbo&index=107&list=PL-_BHhFxZDh-3vvuW4eQUV2Iyy8Hxqbw_">
+		skt02-5.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=zambeBIMzo0&index=106&list=PL-_BHhFxZDh-3vvuW4eQUV2Iyy8Hxqbw_">
+		skt02-6.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=zKiCNHfKxnE&list=PL-_BHhFxZDh-3vvuW4eQUV2Iyy8Hxqbw_&index=105">
+		skt03-2.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=PCGrh80CdlE&index=104&list=PL-_BHhFxZDh-3vvuW4eQUV2Iyy8Hxqbw_">
+		skt03-4.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=DOCmJ_Zv-vA&index=103&list=PL-_BHhFxZDh-3vvuW4eQUV2Iyy8Hxqbw_">
+		skt03-6.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=4LKtrx8-sz0&index=102&list=PL-_BHhFxZDh-3vvuW4eQUV2Iyy8Hxqbw_">
+		skt04-2.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=OVWmlty8ARA&list=PL-_BHhFxZDh-3vvuW4eQUV2Iyy8Hxqbw_&index=101">
+		伸長練習一.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=rNl0UMK5qTI&index=100&list=PL-_BHhFxZDh-3vvuW4eQUV2Iyy8Hxqbw_">
+		伸長---實例一.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=MLmvfDAxyVE&index=99&list=PL-_BHhFxZDh-3vvuW4eQUV2Iyy8Hxqbw_">
+		伸長---實例二.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=FQBwXSetsQE&index=98&list=PL-_BHhFxZDh-3vvuW4eQUV2Iyy8Hxqbw_">
+		rev01-1.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=CR9wyR-oMFg&list=PL-_BHhFxZDh-3vvuW4eQUV2Iyy8Hxqbw_&index=97">
+		rev01-2.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=d6r01dnvf58&list=PL-_BHhFxZDh-3vvuW4eQUV2Iyy8Hxqbw_&index=96">
+		rev03-2.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=JjbXM8Fdcn4&list=PL-_BHhFxZDh-3vvuW4eQUV2Iyy8Hxqbw_&index=95">
+		rev03-3.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=AGBq50r_lkA&list=PL-_BHhFxZDh-3vvuW4eQUV2Iyy8Hxqbw_&index=31">
+		TQC-B101.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=qjDNGR1oiSo&list=PL-_BHhFxZDh-3vvuW4eQUV2Iyy8Hxqbw_&index=30">
+		TQC-B102-1.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=MdBM6_aNBXI&list=PL-_BHhFxZDh-3vvuW4eQUV2Iyy8Hxqbw_&index=29">
+		TQC-B102-2.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=Qqgpf6B0aj8&list=PL-_BHhFxZDh-3vvuW4eQUV2Iyy8Hxqbw_&index=28">
+		TQC-B105-1.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=Ytr8q5bnGpg&list=PL-_BHhFxZDh-3vvuW4eQUV2Iyy8Hxqbw_&index=27&t=12s">
+		TQC-B105-2.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=cxlEhoSML-k&list=PL-_BHhFxZDh-3vvuW4eQUV2Iyy8Hxqbw_&index=26">
+		TQC-B106.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=WRP-RE5jwjM&list=PL-_BHhFxZDh-3vvuW4eQUV2Iyy8Hxqbw_&index=25">
+		TQC-B107.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=s7WSqS35FO8&list=PL-_BHhFxZDh-3vvuW4eQUV2Iyy8Hxqbw_&index=24">
+		TQC-B108.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=42DmEfFeH1c&list=PL-_BHhFxZDh-3vvuW4eQUV2Iyy8Hxqbw_&index=20">
+		TQC-P101.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=sjDFMPXQ46Y&list=PL-_BHhFxZDh-3vvuW4eQUV2Iyy8Hxqbw_&index=19">
+		TQC-P102.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=hCaTqzrT8H0&list=PL-_BHhFxZDh-3vvuW4eQUV2Iyy8Hxqbw_&index=18">
+		TQC-P103.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=cvH9HAyQgeI&list=PL-_BHhFxZDh-3vvuW4eQUV2Iyy8Hxqbw_&index=17">
+		TQC-P104.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=-Av9exjuVoE&index=16&list=PL-_BHhFxZDh-3vvuW4eQUV2Iyy8Hxqbw_">
+		TQC-P105.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=vaOXaN9RvDs&index=15&list=PL-_BHhFxZDh-3vvuW4eQUV2Iyy8Hxqbw_">
+		TQC-P106.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=yFxM67SZxJI&index=14&list=PL-_BHhFxZDh-3vvuW4eQUV2Iyy8Hxqbw_">
+		TQC-P107.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=hOiy8Gg8-So&index=13&list=PL-_BHhFxZDh-3vvuW4eQUV2Iyy8Hxqbw_">
+		TQC-P109.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=-QT09IP3oZU&index=12&list=PL-_BHhFxZDh-3vvuW4eQUV2Iyy8Hxqbw_">
+		TQC-P110.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=0Fx5PIEvUNY&index=11&list=PL-_BHhFxZDh-3vvuW4eQUV2Iyy8Hxqbw_">
+		TQC-P201.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=sWHqCh6U2Z4&index=10&list=PL-_BHhFxZDh-3vvuW4eQUV2Iyy8Hxqbw_">
+		TQC-P202.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=XCnXQhl5gw4&index=9&list=PL-_BHhFxZDh-3vvuW4eQUV2Iyy8Hxqbw_">
+		TQC-P203-2D草圖.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=8n3QXNewnQ8&index=8&list=PL-_BHhFxZDh-3vvuW4eQUV2Iyy8Hxqbw_">
+		TQC-P203-3D草圖.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=JnAveZwRHfg&index=7&list=PL-_BHhFxZDh-3vvuW4eQUV2Iyy8Hxqbw_">
+		TQC-P207.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="button1.jhttps://www.youtube.com/watch?v=35vKVqR3qGc&index=6&list=PL-_BHhFxZDh-3vvuW4eQUV2Iyy8Hxqbw_pg">
+		TQC-P208.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=YXujixkjZX0&list=PL-_BHhFxZDh-3vvuW4eQUV2Iyy8Hxqbw_&index=94">
+		TQC-P209.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=sDxIO1W6Iwc&list=PL-_BHhFxZDh-3vvuW4eQUV2Iyy8Hxqbw_&index=93">
+		設計表格.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=Z-ZIaJPcy-g&list=PL-_BHhFxZDh-3vvuW4eQUV2Iyy8Hxqbw_&index=92">
+		TQC-P210-1.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=MD2bhPQt0YI&list=PL-_BHhFxZDh-3vvuW4eQUV2Iyy8Hxqbw_&index=91">
+		TQC-P210-2.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=Et2zNj-Bao0&list=PL-_BHhFxZDh-3vvuW4eQUV2Iyy8Hxqbw_&index=23">
+		TQC-P210-影音.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=NOio1-RzyC0&t=4s&index=5&list=PL-_BHhFxZDh-3vvuW4eQUV2Iyy8Hxqbw_">
+		TQC-P301.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=PA2jo64Wvsw&index=4&list=PL-_BHhFxZDh-3vvuW4eQUV2Iyy8Hxqbw_">
+		TQC-P302.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=HB8RpFbl7e4&list=PL-_BHhFxZDh-3vvuW4eQUV2Iyy8Hxqbw_&index=22">
+		TQC-P303-影音.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=5PiwRdjhzjM&list=PL-_BHhFxZDh-3vvuW4eQUV2Iyy8Hxqbw_&index=90">
+		TQC-P304.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=GA7Q_xNB5pM&list=PL-_BHhFxZDh-3vvuW4eQUV2Iyy8Hxqbw_&index=89">
+		TQC-P305.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=8oBOQrvm858&index=3&list=PL-_BHhFxZDh-3vvuW4eQUV2Iyy8Hxqbw_">
+		TQC-P307.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=can2atMRD6A&index=2&list=PL-_BHhFxZDh-3vvuW4eQUV2Iyy8Hxqbw_">
+		TQC-P308.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=wMO0kxLFsp8&list=PL-_BHhFxZDh-3vvuW4eQUV2Iyy8Hxqbw_&index=21">
+		TQC-P309.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=6Osynxz9e0w&list=PL-_BHhFxZDh-3vvuW4eQUV2Iyy8Hxqbw_&index=88">
+		TQC-P310-1.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=VodcJtUZ_Wo&list=PL-_BHhFxZDh-3vvuW4eQUV2Iyy8Hxqbw_&index=87">
+		TQC-P310-2.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=GfjthrqGpVw&index=1&list=PL-_BHhFxZDh-3vvuW4eQUV2Iyy8Hxqbw_">
+		TQC-P407.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=h755d89Dkyc&index=83&list=PL-_BHhFxZDh-3vvuW4eQUV2Iyy8Hxqbw_">
+		旋轉樓梯.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=5yamC2opTdQ&list=PL-_BHhFxZDh-3vvuW4eQUV2Iyy8Hxqbw_&index=82">
+		網球曲線.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=6bb4Yr7R4mA&list=PL-_BHhFxZDh-3vvuW4eQUV2Iyy8Hxqbw_&index=81">
+		水龍頭-part1.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=Lgk8XlKJgZs&list=PL-_BHhFxZDh-3vvuW4eQUV2Iyy8Hxqbw_&index=80">
+		水龍頭-part2.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=e7_XGkasuUc&list=PL-_BHhFxZDh-3vvuW4eQUV2Iyy8Hxqbw_&index=79">
+		水龍頭-part3.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=1bjs52unS80&index=86&list=PL-_BHhFxZDh-3vvuW4eQUV2Iyy8Hxqbw_">TQC-S505-1.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=xF91fuotEFM&index=85&list=PL-_BHhFxZDh-3vvuW4eQUV2Iyy8Hxqbw_">TQC-S505-2.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=2CHhVTtAV2Q&index=84&list=PL-_BHhFxZDh-3vvuW4eQUV2Iyy8Hxqbw_">TQC-S505-3.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=7Vdahw8sLRI&list=PL-_BHhFxZDh-3vvuW4eQUV2Iyy8Hxqbw_&index=129">
+		邊界曲面-TQC-S101.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=eK5dUOGTnIE&index=45&list=PL-_BHhFxZDh-3vvuW4eQUV2Iyy8Hxqbw_">邊界曲面-TQC-S102.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=jBMuvew-mEU&list=PL-_BHhFxZDh-3vvuW4eQUV2Iyy8Hxqbw_&index=128">
+		邊界曲面-TQC-S103.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		邊界曲面-TQC-S104.avi</font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=oIVWww8AozI&list=PL-_BHhFxZDh-3vvuW4eQUV2Iyy8Hxqbw_&index=127">
+		邊界曲面-TQC-S105.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		邊界曲面-TQC-S106.avi</font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=wUoUcXSrWp8&index=44&list=PL-_BHhFxZDh-3vvuW4eQUV2Iyy8Hxqbw_">邊界曲面-TQC-S107.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		邊界曲面-TQC-S108.avi</font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=2uwYXFCkZMk&list=PL-_BHhFxZDh-3vvuW4eQUV2Iyy8Hxqbw_&index=126">
+		邊界曲面-TQC-S201.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=ER6j-2owm-Q&index=43&list=PL-_BHhFxZDh-3vvuW4eQUV2Iyy8Hxqbw_">邊界曲面-TQC-S202.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=ZT_5NRR90k8&index=42&list=PL-_BHhFxZDh-3vvuW4eQUV2Iyy8Hxqbw_">邊界曲面-TQC-S203.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=6BFGh4FmZdA&index=41&list=PL-_BHhFxZDh-3vvuW4eQUV2Iyy8Hxqbw_">邊界曲面-TQC-S204-1.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=A9ac6jh3YTg&index=40&list=PL-_BHhFxZDh-3vvuW4eQUV2Iyy8Hxqbw_">邊界曲面-TQC-S204-2.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=PDWf56s0Ktg&index=39&list=PL-_BHhFxZDh-3vvuW4eQUV2Iyy8Hxqbw_">邊界曲面-TQC-S205.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=72XR8s-bTrk&list=PL-_BHhFxZDh-3vvuW4eQUV2Iyy8Hxqbw_&index=124">
+		邊界曲面-TQC-S206-1.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=FuhgATEHxOA&index=125&list=PL-_BHhFxZDh-3vvuW4eQUV2Iyy8Hxqbw_">
+		邊界曲面-TQC-S206-2.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=piQU5QWl4EQ&index=123&list=PL-_BHhFxZDh-3vvuW4eQUV2Iyy8Hxqbw_">
+		邊界曲面-TQC-S502-1.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=A0Rj0vMi3Uw&index=122&list=PL-_BHhFxZDh-3vvuW4eQUV2Iyy8Hxqbw_">
+		邊界曲面-TQC-S502-2.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=MkU8rT0oLBs&index=121&list=PL-_BHhFxZDh-3vvuW4eQUV2Iyy8Hxqbw_">
+		邊界曲面-TQC-S502-3.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=dVj4jo52qx0&list=PL-_BHhFxZDh-3vvuW4eQUV2Iyy8Hxqbw_&index=120">
+		邊界曲面-TQC-S502-4.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=moWSClW-XpE&index=38&list=PL-_BHhFxZDh-3vvuW4eQUV2Iyy8Hxqbw_">TQC-S207.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=FUbZSp8YiY8&index=37&list=PL-_BHhFxZDh-3vvuW4eQUV2Iyy8Hxqbw_">TQC-S207-1.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=r2__Na7zz68&index=36&list=PL-_BHhFxZDh-3vvuW4eQUV2Iyy8Hxqbw_">TQC-S207-2.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=FxHZ0l0M9pk&t=4s&index=35&list=PL-_BHhFxZDh-3vvuW4eQUV2Iyy8Hxqbw_">TQC-S301.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=Jie5nCGOa7g&t=27s&list=PL-_BHhFxZDh-3vvuW4eQUV2Iyy8Hxqbw_&index=137">
+		TQC-S307.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=AvaOUIYNLWE&index=34&list=PL-_BHhFxZDh-3vvuW4eQUV2Iyy8Hxqbw_">TQC-S308.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=OXQDrC2JWFA&index=69&list=PL-_BHhFxZDh-3vvuW4eQUV2Iyy8Hxqbw_">
+		組合件存檔.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=aWN9A7dAe9E&index=33&list=PL-_BHhFxZDh-3vvuW4eQUV2Iyy8Hxqbw_">
+		CSWP-曲面範例-1.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=6rAihn_uvTc&t=6s&index=32&list=PL-_BHhFxZDh-3vvuW4eQUV2Iyy8Hxqbw_">
+		CSWP-曲面範例-2.avi</a></font></p>
+		<p align="left"><b><font face="微軟正黑體" size="5" color="#FFFFFF">&nbsp;&nbsp;&nbsp;&nbsp;
+		<span style="background-color: #FF00FF"><a name="SolidWorks鈑金設計">
+		SolidWorks鈑金設計</a></span></font></b></p>
+		<p align="left">　</p>
+		<p align="left">　</p>
+		<p align="left"><b><font face="微軟正黑體" size="5" color="#FFFFFF">&nbsp;&nbsp;&nbsp;&nbsp;
+		<a name="SolidWorks模具設計"><span style="background-color: #FF00FF">
+		SolidWorks</span></a></font></b><b><a name="SolidWorks模具設計"><font face="微軟正黑體" size="5" color="#FFFFFF"><span style="background-color: #FF00FF">模具設計</span></font></a></b></p>
+		<p align="left">　</p>
+		<p align="left">　</p>
+		<p align="left"><b><font face="微軟正黑體" size="5" color="#FFFFFF">&nbsp;&nbsp;&nbsp;&nbsp;
+		<span style="background-color: #FF00FF"><a name="進階-機械結合與動態模擬">
+		進階-機械結合與動態模擬</a></span></font></b></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=OePTKqjR7qc&list=PL-_BHhFxZDh-3vvuW4eQUV2Iyy8Hxqbw_&index=131">
+		齒輪結合.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=nnmee8YeQ9Q&index=57&list=PL-_BHhFxZDh-3vvuW4eQUV2Iyy8Hxqbw_">
+		齒輪結合.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=g65gCuNDSKc&index=132&list=PL-_BHhFxZDh-3vvuW4eQUV2Iyy8Hxqbw_">
+		螺釘結合.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=imf0gvVAouY&index=54&list=PL-_BHhFxZDh-3vvuW4eQUV2Iyy8Hxqbw_">
+		螺釘結合.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=wrHxzssCNco&list=PL-_BHhFxZDh-3vvuW4eQUV2Iyy8Hxqbw_&index=134">
+		齒條小齒輪.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=hm5kemjTdeA&index=55&list=PL-_BHhFxZDh-3vvuW4eQUV2Iyy8Hxqbw_">
+		齒條小齒輪.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=seboRM-P9w0&index=136&list=PL-_BHhFxZDh-3vvuW4eQUV2Iyy8Hxqbw_">
+		凸輪結合.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=3mXbc0Brhgs&list=PL-_BHhFxZDh-3vvuW4eQUV2Iyy8Hxqbw_&index=59">
+		凸輪-1.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=IZNOJXrIHys&index=58&list=PL-_BHhFxZDh-3vvuW4eQUV2Iyy8Hxqbw_">
+		凸輪-2.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=D_zCNMt3pjM&list=PL-_BHhFxZDh-3vvuW4eQUV2Iyy8Hxqbw_&index=135">
+		皮帶輪.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=ufaHDuyk_n0&index=53&list=PL-_BHhFxZDh-3vvuW4eQUV2Iyy8Hxqbw_">
+		皮帶輪-1.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=A5TU_TOg9pc&list=PL-_BHhFxZDh-3vvuW4eQUV2Iyy8Hxqbw_&index=52">
+		皮帶輪-2.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=3ieeNB6AQ5k&index=56&list=PL-_BHhFxZDh-3vvuW4eQUV2Iyy8Hxqbw_">
+		線性聯軸器.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=84yyZVAqpP4&index=133&list=PL-_BHhFxZDh-3vvuW4eQUV2Iyy8Hxqbw_">
+		飛行模擬.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=JqP_2rTtntA&list=PL-_BHhFxZDh-3vvuW4eQUV2Iyy8Hxqbw_&index=51">
+		飛行模擬.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=oeIuTh3BaVU&list=PL-_BHhFxZDh-3vvuW4eQUV2Iyy8Hxqbw_&index=50">
+		飛行模擬-攝影機視角動畫-1.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=1bAtoyO92Lg&index=49&list=PL-_BHhFxZDh-3vvuW4eQUV2Iyy8Hxqbw_">
+		飛行模擬-攝影機視角動畫-2.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=BGCUFsglUKA&list=PL-_BHhFxZDh-3vvuW4eQUV2Iyy8Hxqbw_&index=48">
+		彈簧拉伸壓縮動畫.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=WAbkNqfr1JM&index=46&list=PL-_BHhFxZDh-3vvuW4eQUV2Iyy8Hxqbw_">
+		杯水動畫-1.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=B3f9d7o1bnQ&list=PL-_BHhFxZDh-3vvuW4eQUV2Iyy8Hxqbw_&index=47">
+		杯水動畫-2.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=OSC2x2Y-EeE&list=PL-_BHhFxZDh-3vvuW4eQUV2Iyy8Hxqbw_&index=115">
+		平板彎折.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=U6XxETOF0t0&list=PL-_BHhFxZDh-3vvuW4eQUV2Iyy8Hxqbw_&index=130">
+		日內瓦機構.avi</a></font></p>
+		<p align="left"><b><span style="background-color: #FFFFFF">
+		<font face="微軟正黑體" size="5" color="#FFFFFF">&nbsp;&nbsp;&nbsp;&nbsp;
+		</font></span><font face="微軟正黑體" size="5" color="#FFFFFF">
+		<span style="background-color: #FF00FF"><a name="TOP_DOWN_DESIGN">TOP 
+		DOWN DESIGN</a></span></font></b></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=-ipmp2cwxG0&list=PL-_BHhFxZDh-3vvuW4eQUV2Iyy8Hxqbw_&index=68">
+		Top-Down design-1.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=PoR7PLL_xjw&list=PL-_BHhFxZDh-3vvuW4eQUV2Iyy8Hxqbw_&index=70">
+		Top-Down design-2.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=DJoHcWITER8&list=PL-_BHhFxZDh-3vvuW4eQUV2Iyy8Hxqbw_&index=66">
+		Top-Down design-3.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=MZsL7ZUONfg&list=PL-_BHhFxZDh-3vvuW4eQUV2Iyy8Hxqbw_&index=67">
+		Top-Down design-4.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=R54LpAqtXkQ&list=PL-_BHhFxZDh-3vvuW4eQUV2Iyy8Hxqbw_&index=65">
+		Top-Down design-5.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=Xr_cfAMthDE&list=PL-_BHhFxZDh-3vvuW4eQUV2Iyy8Hxqbw_&index=64">
+		主控零件設計-1.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=eZq3ZcXkIsE&list=PL-_BHhFxZDh-3vvuW4eQUV2Iyy8Hxqbw_&index=63">
+		主控零件設計-2.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=v1GjFz_ecsk&list=PL-_BHhFxZDh-3vvuW4eQUV2Iyy8Hxqbw_&index=62">
+		主控零件設計-3.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=SxA1TJB9qew&list=PL-_BHhFxZDh-3vvuW4eQUV2Iyy8Hxqbw_&index=61">
+		主控零件設計-4.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=zMnSMBjDFEg&list=PL-_BHhFxZDh-3vvuW4eQUV2Iyy8Hxqbw_&index=60">
+		主控零件設計-5.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=EkWxqjoBV-w&list=PL-_BHhFxZDh-3vvuW4eQUV2Iyy8Hxqbw_&index=118">
+		逆向工程-滑鼠-1.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=GrGIJ2iATak&index=119&list=PL-_BHhFxZDh-3vvuW4eQUV2Iyy8Hxqbw_">
+		逆向工程-滑鼠-2.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=nuN5fsakNno&index=117&list=PL-_BHhFxZDh-3vvuW4eQUV2Iyy8Hxqbw_">
+		逆向工程-滑鼠-3.avi</a></font></p>
+		<p align="left"><font face="微軟正黑體" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.youtube.com/watch?v=P_grqh7-4E4&index=116&list=PL-_BHhFxZDh-3vvuW4eQUV2Iyy8Hxqbw_">
+		逆向工程-滑鼠-4.avi</a></font></p>
+		<p align="left">　</td>
+	</tr>
+</table>
+
+</body>
+
+</html>

@@ -1,0 +1,59 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="zh-tw">
+<meta http-equiv="Content-Type" content="text/html; charset=big5">
+<title>新增網頁2</title>
+<script language="JavaScript">
+<!--
+function FP_swapImg() {//v1.0
+ var doc=document,args=arguments,elm,n; doc.$imgSwaps=new Array(); for(n=2; n<args.length;
+ n+=2) { elm=FP_getObjectByID(args[n]); if(elm) { doc.$imgSwaps[doc.$imgSwaps.length]=elm;
+ elm.$src=elm.src; elm.src=args[n+1]; } }
+}
+
+function FP_preloadImgs() {//v1.0
+ var d=document,a=arguments; if(!d.FP_imgs) d.FP_imgs=new Array();
+ for(var i=0; i<a.length; i++) { d.FP_imgs[i]=new Image; d.FP_imgs[i].src=a[i]; }
+}
+
+function FP_getObjectByID(id,o) {//v1.0
+ var c,el,els,f,m,n; if(!o)o=document; if(o.getElementById) el=o.getElementById(id);
+ else if(o.layers) c=o.layers; else if(o.all) el=o.all[id]; if(el) return el;
+ if(o.id==id || o.name==id) return o; if(o.childNodes) c=o.childNodes; if(c)
+ for(n=0; n<c.length; n++) { el=FP_getObjectByID(id,c[n]); if(el) return el; }
+ f=o.forms; if(f) for(n=0; n<f.length; n++) { els=f[n].elements;
+ for(m=0; m<els.length; m++){ el=FP_getObjectByID(id,els[n]); if(el) return el; } }
+ return null;
+}
+// -->
+</script>
+</head>
+
+<body onload="FP_preloadImgs(/*url*/'button13.jpg', /*url*/'button14.jpg', /*url*/'button16.jpg', /*url*/'button17.jpg', /*url*/'button1C.jpg', /*url*/'button1D.jpg', /*url*/'button20.jpg', /*url*/'button21.jpg', /*url*/'button2.jpg', /*url*/'button3.jpg', /*url*/'button11.jpg', /*url*/'button18.jpg', /*url*/'button19.jpg', /*url*/'button22.jpg')">
+
+<p align="center"><a href="index.htm">
+<img border="0" src="logo.jpg" width="970" height="182"></a></p>
+<p align="center"><a href="http://www.ocu.edu.tw/bin/home.php">
+<img border="0" id="img1" src="button12.jpg" height="60" width="300" alt="僑 光 科 技 大 學" onmouseover="FP_swapImg(1,0,/*id*/'img1',/*url*/'button13.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img1',/*url*/'button12.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img1',/*url*/'button14.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img1',/*url*/'button13.jpg')" fp-style="fp-btn: Embossed Capsule 1; fp-font: 微軟正黑體; fp-font-style: Bold; fp-font-size: 16" fp-title="僑 光 科 技 大 學"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;
+<a href="https://caid.ocu.edu.tw/index.php?Lang=zh-tw">
+<img border="0" id="img8" src="button45.jpg" height="60" width="300" alt="機械與電腦輔助工程系" fp-style="fp-btn: Embossed Capsule 1; fp-font: 微軟正黑體; fp-font-style: Bold; fp-font-size: 14" fp-title="機械與電腦輔助工程系" onmouseover="FP_swapImg(1,0,/*id*/'img8',/*url*/'button43.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img8',/*url*/'button45.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img8',/*url*/'button44.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img8',/*url*/'button43.jpg')"></a></p>
+<table border="1" width="100%" height="589">
+	<tr>
+		<td width="201" align="center" valign="top"><a href="index.htm">
+		<img border="0" id="img4" src="button1F.jpg" height="35" width="175" alt="首        頁" fp-style="fp-btn: Embossed Capsule 1; fp-font: 微軟正黑體; fp-font-style: Bold; fp-font-size: 14" fp-title="首        頁" onmouseover="FP_swapImg(1,0,/*id*/'img4',/*url*/'button20.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img4',/*url*/'button1F.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img4',/*url*/'button21.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img4',/*url*/'button20.jpg')"></a><p>
+		<a href="teacher.htm">
+		<img border="0" id="img3" src="button1B.jpg" height="35" width="175" alt="教師簡歷" onmouseover="FP_swapImg(1,0,/*id*/'img3',/*url*/'button1C.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img3',/*url*/'button1B.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img3',/*url*/'button1D.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img3',/*url*/'button1C.jpg')" fp-style="fp-btn: Embossed Capsule 1; fp-font: 微軟正黑體; fp-font-style: Bold; fp-font-size: 14" fp-title="教師簡歷"></a><p>
+		<a href="solidworks.htm">
+		<img border="0" id="img5" src="button1.jpg" height="35" width="175" alt="SolidWorks教學" fp-style="fp-btn: Embossed Capsule 1; fp-font: 微軟正黑體; fp-font-style: Bold; fp-font-size: 13" fp-title="SolidWorks教學" onmouseover="FP_swapImg(1,0,/*id*/'img5',/*url*/'button2.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img5',/*url*/'button1.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img5',/*url*/'button3.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img5',/*url*/'button2.jpg')"></a><p>
+		<a href="creo.htm">
+		<img border="0" id="img6" src="button10.jpg" height="35" width="175" alt="creo(Pro/E)教學" fp-style="fp-btn: Embossed Capsule 1; fp-font: 微軟正黑體; fp-font-style: Bold; fp-font-size: 13" fp-title="creo(Pro/E)教學" onmouseover="FP_swapImg(1,0,/*id*/'img6',/*url*/'button11.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img6',/*url*/'button10.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img6',/*url*/'button18.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img6',/*url*/'button11.jpg')"></a><p>
+		<a href="autocad.htm">
+		<img border="0" id="img7" src="button23.jpg" height="35" width="175" alt="AutoCAD 教學" fp-style="fp-btn: Embossed Capsule 1; fp-font: 微軟正黑體; fp-font-style: Bold; fp-font-size: 14" fp-title="AutoCAD 教學" onmouseover="FP_swapImg(1,0,/*id*/'img7',/*url*/'button19.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img7',/*url*/'button23.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img7',/*url*/'button22.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img7',/*url*/'button19.jpg')"></a></td>
+		<td valign="top">　</td>
+	</tr>
+</table>
+
+</body>
+
+</html>
